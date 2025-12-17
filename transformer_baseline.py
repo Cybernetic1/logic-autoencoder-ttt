@@ -39,8 +39,8 @@ class TTTDataset(Dataset):
             done = False
             
             while not done:
-                # Get valid actions
-                valid_actions = [a for a in range(9) if env.is_valid(a)]
+                # Get valid actions (check board directly)
+                valid_actions = [a for a in range(9) if env.board[a] == 0]
                 if not valid_actions:
                     break
                 
