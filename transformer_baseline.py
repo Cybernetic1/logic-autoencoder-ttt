@@ -28,7 +28,7 @@ class TTTDataset(Dataset):
     
     def generate_data(self, num_games):
         """Generate training data from random TTT games."""
-        env = gym.make('TicTacToe-plain-v0')
+        env = gym.make('TicTacToe-logic-v0', symbols=[-1, 1])
         
         print(f"Generating {num_games} random games...")
         for game_idx in range(num_games):
@@ -63,14 +63,13 @@ class TTTDataset(Dataset):
     
     def state_to_tensor(self, state):
         """Convert board state to tensor.
-        State is 3x3 board with: 0=empty, 1=X, 2=O
-        Convert to one-hot: shape (9, 3)
+        State is logic format: 27-dim vector (9 cells × 3 values each)
+        Each cell has (x, y, who) where x,y ∈ {0,1,2}, who ∈ {-1,0,1}
+        Return as shape (9, 3) for Transformer input
         """
-        state_flat = state.flatten()  # (9,)
-        one_hot = np.zeros((9, 3), dtype=np.float32)
-        for i, val in enumerate(state_flat):
-            one_hot[i, int(val)] = 1.0
-        return torch.from_numpy(one_hot)
+        # Reshape 27-dim to (9, 3)
+        state_reshaped = state.reshape(9, 3).astype(np.float32)
+        return torch.from_numpy(state_reshaped)
     
     def __len__(self):
         return len(self.data)
@@ -85,8 +84,8 @@ class TTTTransformer(nn.Module):
     def __init__(self, d_model=64, nhead=4, num_layers=2, dim_feedforward=128):
         super().__init__()
         
-        # Input: 9 positions × 3 states (one-hot) = 9×3
-        # Treat each position as a token with 3-dim embedding
+        # Input: 9 positions × 3 values (x, y, who) = 9×3
+        # Treat each position as a token with 3-dim features
         self.input_proj = nn.Linear(3, d_model)
         
         # Transformer encoder
