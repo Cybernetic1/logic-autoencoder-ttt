@@ -1,6 +1,8 @@
-# CPU-only versions to save space (no CUDA)
---index-url https://download.pytorch.org/whl/cpu
-torch>=2.0.0
 numpy>=1.24.0
-gym
+gymnasium
 websockets
+tqdm
+matplotlib
+# CPU-only PyTorch (use --extra-index-url to keep default PyPI access)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
