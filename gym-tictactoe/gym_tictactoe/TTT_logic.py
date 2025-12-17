@@ -14,7 +14,6 @@ import json
 class TicTacToeEnv(gym.Env):
 
 	def __init__(self, symbols, board_size=3, win_size=3):
-		super(TicTacToeEnv, self).__init__()
 		self.win_size = win_size
 		self.board_size = board_size
 		self.symbols = {
@@ -29,6 +28,11 @@ class TicTacToeEnv(gym.Env):
 		# The entries indicate the min and max values of the "box":
 		numpy.array(numpy.float32( [0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1, 0,0,-1] )), \
 		numpy.array(numpy.float32( [3,3,1,  3,3,1,  3,3,1,  3,3,1,  3,3,1,  3,3,1,  3,3,1,  3,3,1,  3,3,1] )))
+		
+		# Gym 0.26+ requires observation_space to be defined before super().__init__()
+		self.observation_space = self.state_space
+		
+		super(TicTacToeEnv, self).__init__()
 
 		self.rewards = {
 			'still_in_game': 0.3,
