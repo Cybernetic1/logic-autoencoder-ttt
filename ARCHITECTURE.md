@@ -45,6 +45,13 @@ Logic-based latent space should be more interpretable and compositional than sta
 - Numbers are **pure symbols** (no arithmetic properties)
 - Example propositions: occupied(X, 2, 3), player(X, x), winner(o), etc.
 
+### Natural-Form Rules
+See [TTT_natural_rules.md](TTT_natural_rules.md) for detailed analysis of:
+- Rules reformulated in coordinate-based symbolic form
+- What patterns are more "natural" for neural networks to learn
+- Hierarchical organization: pattern matching → positional heuristics → relational patterns → forks
+- Algorithm architecture guided by emergence likelihood
+
 ## Handling Stochasticity
 
 ### Challenge
