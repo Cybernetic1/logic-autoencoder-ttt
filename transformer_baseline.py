@@ -28,7 +28,7 @@ class TTTDataset(Dataset):
     
     def generate_data(self, num_games):
         """Generate training data from random TTT games."""
-        env = gym.make('TicTacToe-v0')
+        env = gym.make('TicTacToe-plain-v0')
         
         print(f"Generating {num_games} random games...")
         for game_idx in range(num_games):
