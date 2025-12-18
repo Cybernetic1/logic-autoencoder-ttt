@@ -41,11 +41,14 @@ class RandomTTTDataset(Dataset):
             available.remove(pos)
             board[pos] = 1 if i % 2 == 0 else -1
         
+        # Determine whose turn it is
+        current_player = 1 if num_moves % 2 == 0 else -1
+        
         # Make one more random move for next state
         if available:
             next_board = board.copy()
             next_pos = np.random.choice(available)
-            next_board[next_pos] = 1 if num_moves % 2 == 0 else -1
+            next_board[next_pos] = current_player
         else:
             next_board = board  # No move possible
         
@@ -63,7 +66,9 @@ def train_epoch(model, dataloader, optimizer, device):
     correct_predictions = 0
     total_predictions = 0
     
-    for current_state, next_state in dataloader:
+    for batch_idx, (current_state, next_state) in enumerate(dataloader):
+        if batch_idx % 50 == 0:
+            print(f"  Batch {batch_idx}/{len(dataloader)}", end='\r')
         current_state = current_state.to(device)
         next_state = next_state.to(device)
         
@@ -81,11 +86,14 @@ def train_epoch(model, dataloader, optimizer, device):
         ground_preds = latent['ground_predicates']
         for key in ['is_corner', 'is_center', 'is_edge']:
             pred = ground_preds[key]
-            # Encourage values close to 0 or 1
-            sparsity = torch.mean((pred - 0.5) ** 2)
+            # Encourage values close to 0 or 1 (binary entropy)
+            # -p*log(p) - (1-p)*log(1-p) is minimized when p=0 or p=1
+            epsilon = 1e-7
+            pred = torch.clamp(pred, epsilon, 1 - epsilon)
+            sparsity = -torch.mean(pred * torch.log(pred) + (1 - pred) * torch.log(1 - pred))
             sparsity_loss += sparsity
         
-        total_loss_val = loss + 0.01 * sparsity_loss
+        total_loss_val = loss + 0.1 * sparsity_loss  # Increased from 0.01
         
         # Backward pass
         optimizer.zero_grad()
@@ -258,9 +266,9 @@ def main():
     model = model.to(device)
     print(f"Model parameters: {sum(p.numel() for p in model.parameters())}")
     
-    # Create datasets
-    train_dataset = RandomTTTDataset(num_samples=50000)
-    val_dataset = RandomTTTDataset(num_samples=5000)
+    # Create datasets (smaller for faster testing)
+    train_dataset = RandomTTTDataset(num_samples=10000)
+    val_dataset = RandomTTTDataset(num_samples=1000)
     
     train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=0)
     val_loader = DataLoader(val_dataset, batch_size=128, shuffle=False, num_workers=0)
@@ -269,7 +277,7 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=0.001)
     
     # Training loop
-    num_epochs = 50
+    num_epochs = 20
     train_losses = []
     val_losses = []
     train_accs = []
@@ -285,10 +293,9 @@ def main():
         train_accs.append(train_acc)
         val_accs.append(val_acc)
         
-        if (epoch + 1) % 5 == 0:
-            print(f"Epoch {epoch+1}/{num_epochs} - "
-                  f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, "
-                  f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
+        print(f"Epoch {epoch+1}/{num_epochs} - "
+              f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}, "
+              f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.4f}")
     
     # Analyze results
     analyze_learned_predicates(model, device)
