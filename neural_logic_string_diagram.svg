@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 354.6402 221.17432"
-   width="354.6402"
-   height="221.17432"
+   viewBox="0 0 1547.0335 1079.4325"
+   width="1547.0334"
+   height="1079.4325"
    version="1.1"
    id="svg81"
    sodipodi:docname="neural_logic_string_diagram.svg"
-   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns31="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview81"
      pagecolor="#ffffff"
@@ -20,48 +21,64 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#ffffff"
-     inkscape:zoom="0.5"
-     inkscape:cx="-103"
-     inkscape:cy="279"
+     inkscape:zoom="1"
+     inkscape:cx="492"
+     inkscape:cy="678.5"
      inkscape:window-width="1080"
      inkscape:window-height="1897"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg81"
-     showborder="false" />
-  <line
-     x1="-272.64932"
-     y1="448.47604"
-     x2="-232.64932"
-     y2="448.47604"
-     stroke="#9c27b0"
-     stroke-width="3"
-     id="line36" />
-  <line
-     x1="-112.64932"
-     y1="448.47604"
-     x2="-32.649319"
-     y2="448.47604"
-     stroke="#795548"
-     stroke-width="3"
-     marker-end="url(#arrow-brown)"
-     id="line38" />
+     showborder="false"
+     showgrid="false" />
+  <rect
+     x="253.67648"
+     y="274.08636"
+     width="896.49683"
+     height="384.203"
+     fill="#fff3e0"
+     fill-opacity="0.3"
+     stroke="#f57c00"
+     stroke-width="1.5"
+     stroke-dasharray="3, 3"
+     rx="20.838949"
+     id="rect10"
+     ry="19.979612" />
+  <path
+     id="line35"
+     style="fill:none;stroke:#9c27b0;stroke-width:3"
+     d="m 791.74397,396.3125 -10e-6,81 40,-1"
+     sodipodi:nodetypes="ccc" />
+  <path
+     id="line54"
+     style="fill:none;stroke:#4caf50;stroke-width:2"
+     d="m 731.74397,420.3125 v 321 h 264.00001"
+     sodipodi:nodetypes="ccc" />
+  <path
+     id="line27"
+     style="stroke:#9c27b0;stroke-width:4;marker-end:url(#arrow-purple)"
+     d="m 763.74397,396.3125 h 50"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="line38"
+     style="stroke:#795548;stroke-width:3;marker-end:url(#arrow-brown)"
+     d="M 943.74396,476.3125 H 1023.744" />
   <path
      id="line31"
-     style="stroke:#673ab7;stroke-width:3;marker-end:url(#arrow-indigo)"
-     d="m -104.64932,373.47604 h 62.000001"
+     style="stroke:#673ab7;stroke-width:4;marker-end:url(#arrow-indigo);stroke-dasharray:none"
+     d="M 951.74397,401.3125 H 1013.744"
      sodipodi:nodetypes="cc" />
   <path
      id="line45"
      style="stroke:#673ab7;stroke-width:4;marker-end:url(#arrow-indigo)"
-     d="m 141.35069,409.47604 h 63.99999"
+     d="m 1197.744,437.3125 h 64"
      sodipodi:nodetypes="cc" />
   <line
-     x1="37.350681"
-     y1="902.47607"
-     x2="37.350681"
-     y2="972.47607"
+     x1="1093.744"
+     y1="930.3125"
+     x2="1093.744"
+     y2="1000.3125"
      stroke="#b71c1c"
      stroke-width="6"
      marker-end="url(#arrow-red)"
@@ -69,8 +86,8 @@
      style="stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#arrow-red)" />
   <!-- Title -->
   <text
-     x="-476.64929"
-     y="-3.5239563"
+     x="579.74402"
+     y="24.3125"
      font-size="18"
      font-weight="bold"
      text-anchor="middle"
@@ -81,8 +98,8 @@
        id="tspan87">Neural Logic Network: String Diagram (Category Theory Style)</tspan></text>
   <!-- Legend -->
   <rect
-     x="-583.24261"
-     y="33.099899"
+     x="473.15067"
+     y="60.936356"
      width="318.76248"
      height="102.57288"
      fill="#f5f5f5"
@@ -91,29 +108,29 @@
      rx="3"
      id="rect2" />
   <text
-     x="-547.24261"
-     y="63.099899"
+     x="509.15067"
+     y="90.936356"
      font-size="11px"
      font-weight="bold"
      id="text3"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Legend:</text>
   <line
-     x1="-547.24261"
-     y1="87.099899"
-     x2="-507.24261"
-     y2="87.099899"
+     x1="509.15067"
+     y1="110.93636"
+     x2="549.1507"
+     y2="110.93636"
      stroke="#2196f3"
      stroke-width="3"
      id="line3" />
   <text
-     x="-502.24261"
-     y="91.099899"
+     x="554.1507"
+     y="118.93636"
      font-size="10px"
      id="text4"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">= Data wire (tensor)</text>
   <rect
-     x="-547.24261"
-     y="102.0999"
+     x="509.15067"
+     y="129.93636"
      width="40"
      height="20"
      fill="#ffffff"
@@ -122,40 +139,40 @@
      rx="2"
      id="rect4" />
   <text
-     x="-502.24261"
-     y="118.0999"
+     x="554.1507"
+     y="145.93636"
      font-size="10px"
      id="text5"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">= Operation (function)</text>
   <!-- INPUT: Working Memory -->
   <text
-     x="-1056.6493"
-     y="340.47604"
+     x="-0.25599959"
+     y="368.3125"
      font-size="13"
      font-weight="bold"
      fill="#1565c0"
      id="text6"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">INPUT</text>
   <text
-     x="-1056.6493"
-     y="366.47604"
+     x="-0.25599959"
+     y="394.3125"
      font-size="11"
      fill="#666666"
      id="text7"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
        sodipodi:role="line"
        id="tspan85"
-       x="-1056.6493"
-       y="366.47604"
+       x="-0.25599959"
+       y="394.3125"
        style="line-height:1">Working</tspan><tspan
        sodipodi:role="line"
        id="tspan86"
-       x="-1056.6493"
-       y="387.80936"
+       x="-0.25599959"
+       y="415.64581"
        style="line-height:1">Memory</tspan></text>
   <text
-     x="-1056.6493"
-     y="413.47604"
+     x="-0.25599959"
+     y="441.3125"
      font-size="10"
      font-family="monospace"
      fill="#444444"
@@ -164,11 +181,11 @@
   <path
      id="line8"
      style="stroke:#2196f3;stroke-width:4;marker-end:url(#arrow-blue)"
-     d="m -912.64932,362.47604 h 168"
+     d="m 143.74397,390.3125 h 168"
      sodipodi:nodetypes="cc" />
   <text
-     x="-878.64929"
-     y="349.47604"
+     x="155.744"
+     y="377.3125"
      font-size="9"
      text-anchor="middle"
      fill="#1565c0"
@@ -176,19 +193,20 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">WM</text>
   <!-- RULE PROCESSING (for one rule) -->
   <rect
-     x="-828.36798"
-     y="234.2049"
-     width="1295"
-     height="707.99994"
+     x="200.22202"
+     y="249.49707"
+     width="1322.8033"
+     height="720.54419"
      fill="none"
      stroke="#9c27b0"
      stroke-width="2"
      stroke-dasharray="5, 5"
-     rx="5"
-     id="rect9" />
+     rx="30.229736"
+     id="rect9"
+     ry="30.323578" />
   <text
-     x="-201.65952"
-     y="213.24567"
+     x="714.90546"
+     y="232.70422"
      font-size="12"
      font-weight="bold"
      text-anchor="middle"
@@ -196,22 +214,9 @@
      id="text10"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Single Rule Processing (repeat M times)</text>
   <!-- FOR EACH PREMISE j -->
-  <rect
-     x="-802.64929"
-     y="298.47604"
-     width="480"
-     height="330"
-     fill="#fff3e0"
-     fill-opacity="0.3"
-     stroke="#f57c00"
-     stroke-width="1.5"
-     stroke-dasharray="3, 3"
-     rx="20.838949"
-     id="rect10"
-     ry="19.979612" />
   <text
-     x="-598.32721"
-     y="654.42102"
+     x="458.06607"
+     y="682.25745"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
@@ -220,19 +225,19 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">For each premise j ∈ {1..J}</text>
   <path
      id="line14"
-     style="stroke:#2196f3;stroke-width:2;stroke-dasharray:2, 2"
-     d="m -772.64929,362.47604 v 146"
-     sodipodi:nodetypes="cc" />
+     style="fill:none;stroke:#2196f3;stroke-width:2;stroke-dasharray:2, 2"
+     d="m 283.744,390.3125 v 146 h 407.99996 v -115"
+     sodipodi:nodetypes="cccc" />
   <text
-     x="-761.64929"
-     y="476.47604"
+     x="330.34955"
+     y="523.85138"
      font-size="8"
      fill="#666666"
      id="text14"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">copy</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#37abc8">copy</text>
   <rect
-     x="-743.35266"
-     y="334.90826"
+     x="313.04062"
+     y="362.74472"
      width="132.13048"
      height="59.276257"
      fill="#ffffff"
@@ -241,61 +246,61 @@
      rx="3"
      id="rect14" />
   <text
-     x="-676.64929"
-     y="358.47604"
+     x="379.74399"
+     y="386.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text15"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Match Score</text>
   <text
-     x="-670.64929"
-     y="427.47604"
+     x="385.74399"
+     y="455.3125"
      font-size="8"
      text-anchor="middle"
      id="text16"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Σ(1-γ[j,l])·(c[j,l]-WM[:,:,l])²</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="-676.64929"
-     y="385.47604"
+     x="379.74399"
+     y="413.3125"
      font-size="7"
      text-anchor="middle"
      fill="#666666"
      id="text17"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">for l ∈ {1..L}</text>
   <circle
-     cx="-706.64929"
-     cy="334.47604"
+     cx="349.74399"
+     cy="362.3125"
      r="3"
      fill="#e91e63"
      id="circle17" />
   <path
      id="line17"
      style="stroke:#e91e63;stroke-width:2"
-     d="m -706.64932,330.47604 v -46"
+     d="m 349.74397,358.3125 v -46"
      sodipodi:nodetypes="cc" />
   <text
-     x="-725.64929"
-     y="274.47604"
+     x="328.74399"
+     y="302.3125"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
      id="text18"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">γ[j,:]</text>
   <circle
-     cx="-652.64929"
-     cy="334.47604"
+     cx="403.74399"
+     cy="362.3125"
      r="3"
      fill="#e91e63"
      id="circle18" />
   <path
      id="line18"
      style="stroke:#e91e63;stroke-width:2"
-     d="m -652.64932,330.47604 v -46"
+     d="m 403.74397,358.3125 v -46"
      sodipodi:nodetypes="cc" />
   <text
-     x="-669.64929"
-     y="274.47604"
+     x="384.74399"
+     y="302.3125"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
@@ -303,20 +308,20 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">c[j,:]</text>
   <path
      id="line19"
-     style="stroke:#4caf50;stroke-width:3;marker-end:url(#arrow-green)"
-     d="m -610.64929,363.47604 h 54"
+     style="stroke:#4caf50;stroke-width:4;stroke-dasharray:none;marker-end:url(#arrow-green)"
+     d="m 445.744,391.3125 h 50"
      sodipodi:nodetypes="cc" />
   <text
-     x="-582.64929"
-     y="324.47604"
+     x="473.74399"
+     y="352.3125"
      font-size="8"
      text-anchor="middle"
      fill="#4caf50"
      id="text20"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,W)</text>
   <rect
-     x="-550.50861"
-     y="339.1947"
+     x="505.88467"
+     y="367.03116"
      width="97.859314"
      height="51.416916"
      fill="#ffffff"
@@ -325,98 +330,77 @@
      rx="3"
      id="rect20" />
   <text
-     x="-502.64929"
-     y="360.47604"
+     x="553.74402"
+     y="388.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text21"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Softmax</text>
   <text
-     x="-502.64929"
-     y="381.47604"
+     x="553.74402"
+     y="409.3125"
      font-size="8"
      text-anchor="middle"
      id="text22"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">-scores/τ</text>
   <path
      id="line22"
-     style="stroke:#ff9800;stroke-width:3;marker-end:url(#arrow-orange)"
-     d="m -452.64932,363.47604 h 52"
+     style="stroke:#ff9800;stroke-width:4;stroke-dasharray:none;marker-end:url(#arrow-orange)"
+     d="m 603.74397,391.3125 h 44"
      sodipodi:nodetypes="cc" />
   <text
-     x="-424.64932"
-     y="322.47604"
+     x="631.74396"
+     y="350.3125"
      font-size="8"
      text-anchor="middle"
      fill="#ff9800"
      id="text23"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">α (batch,W)</text>
   <rect
-     x="-399.07132"
-     y="338.48114"
-     width="106.422"
-     height="54.994904"
+     x="657.32196"
+     y="366.3176"
+     width="112.22198"
+     height="54.299896"
      fill="#ffffff"
      stroke="#333333"
      stroke-width="1.5"
      rx="3"
      id="rect23" />
   <text
-     x="-342.64932"
-     y="359.47604"
+     x="713.74396"
+     y="387.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text24"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Einsum</text>
   <text
-     x="-342.64932"
-     y="382.47604"
+     x="713.74396"
+     y="410.3125"
      font-size="8"
      text-anchor="middle"
      id="text25"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">bw,bwl→bl</text>
-  <line
-     x1="-772.64929"
-     y1="508.47604"
-     x2="-342.64932"
-     y2="508.47604"
-     stroke="#2196f3"
-     stroke-width="3"
-     id="line25" />
-  <line
-     x1="-342.64932"
-     y1="508.47604"
-     x2="-342.64932"
-     y2="393.47604"
-     stroke="#2196f3"
-     stroke-width="3"
-     id="line26" />
-  <path
-     id="line27"
-     style="stroke:#9c27b0;stroke-width:4;marker-end:url(#arrow-purple)"
-     d="m -292.64932,368.47604 h 50"
-     sodipodi:nodetypes="cc" />
   <text
-     x="-246.64932"
-     y="301.47604"
+     x="809.74396"
+     y="329.3125"
      font-size="9"
      text-anchor="middle"
      fill="#9c27b0"
      id="text27"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">best_prop</text>
   <text
-     x="-248.64932"
-     y="326.47604"
+     x="807.74396"
+     y="354.3125"
      font-size="8"
      text-anchor="middle"
      fill="#9c27b0"
      id="text28"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,L)</text>
   <rect
-     x="-223.35269"
-     y="342.76758"
+     x="833.04059"
+     y="370.60403"
      width="129.83899"
      height="60.562683"
      fill="#ffffff"
@@ -425,58 +409,58 @@
      rx="3"
      id="rect28" />
   <text
-     x="-162.64932"
-     y="366.47604"
+     x="893.74396"
+     y="394.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text29"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Body[j]</text>
   <text
-     x="-162.64932"
-     y="388.47604"
+     x="895.74396"
+     y="420.3125"
      font-size="8"
      text-anchor="middle"
      id="text30"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Linear(L→I)</text>
   <circle
-     cx="-162.64932"
-     cy="340.47604"
+     cx="893.74396"
+     cy="368.3125"
      r="3"
      fill="#e91e63"
      id="circle30" />
   <path
      id="line30"
      style="stroke:#e91e63;stroke-width:2"
-     d="m -162.64932,338.47604 v -63"
+     d="m 893.74397,366.3125 v -57"
      sodipodi:nodetypes="cc" />
   <text
-     x="-203.64932"
-     y="267.47604"
+     x="846.74396"
+     y="301.3125"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
      id="text31"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">W_body[j]</text>
   <text
-     x="-64.649323"
-     y="304.47604"
+     x="991.74396"
+     y="332.3125"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
      id="text32"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">vars[j]</text>
   <text
-     x="-64.649323"
-     y="329.47604"
+     x="991.74396"
+     y="357.3125"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
      id="text33"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,I)</text>
   <rect
-     x="-236.91031"
-     y="417.76758"
+     x="819.48297"
+     y="445.60403"
      width="144.95419"
      height="65.708466"
      fill="#ffffff"
@@ -485,63 +469,58 @@
      rx="3"
      id="rect33" />
   <text
-     x="-162.64932"
-     y="443.47604"
+     x="893.74396"
+     y="471.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text34"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">SlotSelect[j]</text>
   <text
-     x="-162.64932"
-     y="471.47604"
+     x="893.74396"
+     y="499.3125"
      font-size="8"
      text-anchor="middle"
      id="text35"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Linear(L→L×I)</text>
-  <path
-     id="line35"
-     style="stroke:#9c27b0;stroke-width:3"
-     d="m -272.64932,368.47604 v 82"
-     sodipodi:nodetypes="cc" />
   <circle
-     cx="-162.64932"
-     cy="483.47604"
+     cx="893.74396"
+     cy="511.3125"
      r="3"
      fill="#e91e63"
      id="circle36" />
   <path
      id="line37"
      style="stroke:#e91e63;stroke-width:2"
-     d="m -162.79001,544.83182 v -60"
+     d="m 893.60328,572.66828 v -60"
      sodipodi:nodetypes="cc" />
   <text
-     x="-201.49844"
-     y="570.20795"
+     x="854.89484"
+     y="598.04443"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
      id="text37"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">W_slot[j]</text>
   <text
-     x="-52.649323"
-     y="529.47607"
+     x="1003.744"
+     y="557.3125"
      font-size="8"
      text-anchor="middle"
      fill="#795548"
      id="text38"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">slots[j]</text>
   <text
-     x="-52.649323"
-     y="506.47604"
+     x="1003.744"
+     y="534.3125"
      font-size="8"
      text-anchor="middle"
      fill="#795548"
      id="text39"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,L,I)</text>
   <rect
-     x="-27.925568"
-     y="338.90826"
+     x="1028.4678"
+     y="366.74472"
      width="187.80836"
      height="128"
      fill="#ffffff"
@@ -552,46 +531,46 @@
      style="fill:#ffffff" />
   <!-- ACCUMULATE across premises -->
   <text
-     x="71.350685"
-     y="366.47604"
+     x="1127.744"
+     y="390.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text40"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Accumulate</text>
   <text
-     x="71.350685"
-     y="387.47604"
+     x="1123.744"
+     y="413.3125"
      font-size="9"
      text-anchor="middle"
      id="text41"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Σ over j</text>
   <text
-     x="71.350685"
-     y="407.47604"
+     x="1123.744"
+     y="435.3125"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
      id="text42"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">captured_vars</text>
   <text
-     x="71.350685"
-     y="430.47604"
+     x="1123.744"
+     y="458.3125"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
      id="text43"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">+= γ_avg·vars[j]</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">+= γ_avg · vars[j]</text>
   <text
-     x="71.350685"
-     y="453.47604"
+     x="1123.744"
+     y="481.3125"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
      id="text44"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">+= slots[j]·props</text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">+= slots[j] · props</text>
   <path
-     d="m 17.350683,468.47604 v 130 H -772.64932 v -82"
+     d="m 1073.744,496.3125 v 130 H 283.74397 v -82"
      stroke="#f57c00"
      stroke-width="2"
      fill="none"
@@ -600,24 +579,24 @@
      id="path44"
      sodipodi:nodetypes="cccc" />
   <text
-     x="-212.64932"
-     y="619.47607"
+     x="597.99359"
+     y="611.05249"
      font-size="9"
      text-anchor="middle"
      fill="#f57c00"
      id="text45"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">loop j=1..J</text>
   <text
-     x="209.35068"
-     y="324.47604"
+     x="1270.1804"
+     y="369.69885"
      font-size="9"
      text-anchor="middle"
      fill="#673ab7"
      id="text46"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">captured</text>
   <text
-     x="219.35068"
-     y="347.47604"
+     x="1269.744"
+     y="393.3125"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
@@ -625,8 +604,8 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,I)</text>
   <!-- HEAD network -->
   <rect
-     x="219.41183"
-     y="381.48114"
+     x="1275.8052"
+     y="409.3176"
      width="225.58614"
      height="53.567749"
      fill="#ffffff"
@@ -635,34 +614,34 @@
      rx="3"
      id="rect47" />
   <text
-     x="329.35068"
-     y="404.47604"
+     x="1385.744"
+     y="432.3125"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text48"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Head</text>
   <text
-     x="329.35068"
-     y="424.47604"
+     x="1385.744"
+     y="452.3125"
      font-size="8"
      text-anchor="middle"
      id="text49"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Linear(I→output_dim)</text>
   <circle
-     cx="337.35068"
-     cy="380.47604"
+     cx="1393.744"
+     cy="408.3125"
      r="3"
      fill="#e91e63"
      id="circle49" />
   <path
      id="line49"
      style="stroke:#e91e63;stroke-width:2"
-     d="m 337.35068,380.47604 v -97"
+     d="m 1393.744,408.3125 v -97"
      sodipodi:nodetypes="cc" />
   <text
-     x="304.35068"
-     y="267.47604"
+     x="1360.744"
+     y="295.3125"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
@@ -671,26 +650,26 @@
   <path
      id="line50"
      style="fill:none;stroke:#d32f2f;stroke-width:4"
-     d="m 158.72683,650.17434 h 180 V 435.17431"
+     d="m 1191.1201,740.0108 h 204 V 463.01077"
      sodipodi:nodetypes="ccc" />
   <text
-     x="234.35068"
-     y="538.47607"
+     x="1290.744"
+     y="566.3125"
      font-size="9"
      fill="#d32f2f"
      id="text51"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">rule_out</text>
   <text
-     x="166.35068"
-     y="567.47607"
+     x="1222.744"
+     y="595.3125"
      font-size="8"
      fill="#d32f2f"
      id="text52"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,out_dim)</text>
   <!-- CONFIDENCE weighting -->
   <rect
-     x="-61.171291"
-     y="617.91333"
+     x="986.69012"
+     y="710.72198"
      width="215.60651"
      height="61.416939"
      fill="#ffffff"
@@ -699,27 +678,22 @@
      rx="3"
      id="rect52" />
   <text
-     x="42.350681"
-     y="642.47607"
+     x="1090.2122"
+     y="735.28473"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text53"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Confidence</text>
   <text
-     x="42.350681"
-     y="666.47607"
+     x="1094.2122"
+     y="759.28473"
      font-size="8"
      text-anchor="middle"
      id="text54"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">exp(-match_quality)</text>
   <path
-     id="line54"
-     style="fill:none;stroke:#4caf50;stroke-width:2"
-     d="m -374.64932,392.47604 v 257 h 314.000003"
-     sodipodi:nodetypes="ccc" />
-  <path
-     d="M -42.649317,883.47604 H -912.64932 v -501"
+     d="M 1013.744,911.3125 H 143.74397 v -501"
      stroke="#9c27b0"
      stroke-width="2.5"
      fill="none"
@@ -729,62 +703,58 @@
      sodipodi:nodetypes="ccc"
      style="marker-end:url(#arrow-indigo)" />
   <text
-     x="-218.64932"
-     y="676.47607"
+     x="837.74396"
+     y="728.3125"
      font-size="8"
      text-anchor="middle"
      fill="#4caf50"
      id="text55"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">match_quality</text>
   <line
-     x1="37.350681"
-     y1="743.47607"
-     x2="37.350681"
-     y2="838.47607"
+     x1="1093.744"
+     y1="771.3125"
+     x2="1093.744"
+     y2="866.3125"
      stroke="#b71c1c"
      stroke-width="5"
      marker-end="url(#arrow-red)"
      id="line58" />
-  <circle
-     cx="37.350681"
-     cy="738.47607"
-     r="15"
-     fill="#ffffff"
-     stroke="#333333"
-     stroke-width="1.5"
-     id="circle55" />
+  <g
+     id="g3100"
+     transform="translate(0,50)">
+    <circle
+       cx="1093.744"
+       cy="766.3125"
+       r="15"
+       fill="#ffffff"
+       stroke="#333333"
+       stroke-width="1.5"
+       id="circle55" />
+    <text
+       x="1093.744"
+       y="781.3125"
+       font-size="16"
+       text-anchor="middle"
+       id="text56"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">×</text>
+  </g>
   <text
-     x="37.350681"
-     y="746.47607"
-     font-size="16"
-     text-anchor="middle"
-     id="text56"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">×</text>
-  <line
-     x1="37.350681"
-     y1="678.47607"
-     x2="37.350681"
-     y2="723.47607"
-     stroke="#d32f2f"
-     stroke-width="3"
-     id="line57" />
-  <text
-     x="57.350681"
-     y="788.47607"
+     x="1123.9749"
+     y="809.65088"
      font-size="9"
      fill="#b71c1c"
      id="text58"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">weighted_out</text>
   <text
-     x="57.350681"
-     y="813.47607"
+     x="1123.9749"
+     y="834.65088"
      font-size="8"
      fill="#b71c1c"
      id="text59"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,out_dim)</text>
   <rect
-     x="-64.035675"
-     y="852.76758"
+     x="992.3576"
+     y="880.604"
      width="207.05406"
      height="55.708462"
      fill="#ffffff"
@@ -794,23 +764,23 @@
      id="rect59" />
   <!-- SUM across all rules -->
   <text
-     x="35.350681"
-     y="874.47607"
+     x="1091.744"
+     y="902.3125"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
      id="text60"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Sum Rules</text>
   <text
-     x="39.350681"
-     y="897.47607"
+     x="1095.744"
+     y="925.3125"
      font-size="9"
      text-anchor="middle"
      id="text61"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Σ over m ∈ {1..M}</text>
   <text
-     x="-506.64929"
-     y="910.47607"
+     x="549.90802"
+     y="895.23059"
      font-size="10"
      text-anchor="middle"
      fill="#9c27b0"
@@ -819,8 +789,8 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">loop m=1..M (repeat for each rule)</text>
   <!-- FINAL OUTPUT -->
   <text
-     x="37.350681"
-     y="1008.4761"
+     x="1093.744"
+     y="1036.3125"
      font-size="13"
      font-weight="bold"
      text-anchor="middle"
@@ -828,16 +798,16 @@
      id="text63"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">OUTPUT</text>
   <text
-     x="37.350681"
-     y="1028.4761"
+     x="1093.744"
+     y="1056.3125"
      font-size="11"
      text-anchor="middle"
      fill="#666666"
      id="text64"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Final Prediction</text>
   <text
-     x="37.350681"
-     y="1046.4761"
+     x="1093.744"
+     y="1074.3125"
      font-size="10"
      font-family="monospace"
      text-anchor="middle"
@@ -846,8 +816,8 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch, output_dim)</text>
   <!-- Annotations -->
   <text
-     x="-1035.948"
-     y="39.817505"
+     x="20.445293"
+     y="67.653961"
      font-size="10px"
      fill="#666666"
      font-style="italic"
@@ -856,8 +826,8 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
        id="tspan83">Key innovations:</tspan></text>
   <text
-     x="-1035.948"
-     y="68.995483"
+     x="20.445293"
+     y="96.83194"
      font-size="9px"
      fill="#666666"
      id="text67"
@@ -865,22 +835,22 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
        id="tspan84">• γ learns constant vs variable</tspan></text>
   <text
-     x="-1035.948"
-     y="98.344238"
+     x="20.445293"
+     y="126.18069"
      font-size="9px"
      fill="#666666"
      id="text68"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000">• Soft attention = differentiable</text>
   <text
-     x="-1035.948"
-     y="123.5542"
+     x="20.445293"
+     y="151.39066"
      font-size="9px"
      fill="#666666"
      id="text69"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000">• Variable capture via unification</text>
   <text
-     x="-1035.948"
-     y="152.8175"
+     x="20.445293"
+     y="180.65396"
      font-size="9px"
      fill="#666666"
      id="text70"
@@ -905,34 +875,35 @@
        viewBox="0 0 10 6"
        preserveAspectRatio="none">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="0,0 10,3 0,6 "
          fill="#2196f3"
          id="polygon70" />
     </marker>
     <marker
        id="arrow-green"
-       markerWidth="6"
-       markerHeight="6"
-       refX="9"
+       markerWidth="5"
+       markerHeight="4"
+       refX="7"
        refY="3"
        orient="auto"
        viewBox="0 0 10 6"
        preserveAspectRatio="none">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="0,0 10,3 0,6 "
          fill="#4caf50"
          id="polygon71" />
     </marker>
     <marker
        id="arrow-orange"
-       markerWidth="6"
-       markerHeight="6"
-       refX="9"
+       markerWidth="5"
+       markerHeight="4"
+       refX="6"
        refY="3"
        orient="auto"
-       preserveAspectRatio="none">
+       preserveAspectRatio="none"
+       viewBox="0 0 10 6">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="10,3 0,6 0,0 "
          fill="#ff9800"
          id="polygon72" />
     </marker>
@@ -947,33 +918,33 @@
        markerUnits="strokeWidth"
        viewBox="0 0 10 6">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="10,3 0,6 0,0 "
          fill="#9c27b0"
          id="polygon73" />
     </marker>
     <marker
        id="arrow-indigo"
-       markerWidth="6"
-       markerHeight="6"
+       markerWidth="4"
+       markerHeight="4"
        refX="4"
        refY="3"
        orient="auto"
        preserveAspectRatio="none"
        viewBox="0 0 10 6">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="10,3 0,6 0,0 "
          fill="#673ab7"
          id="polygon74" />
     </marker>
     <marker
        id="arrow-brown"
-       markerWidth="10"
+       markerWidth="6"
        markerHeight="6"
-       refX="9"
+       refX="8"
        refY="3"
        orient="auto"
        viewBox="0 0 10 6"
-       preserveAspectRatio="xMidYMid">
+       preserveAspectRatio="none">
       <polygon
          points="0,6 0,0 10,3 "
          fill="#795548"
@@ -990,15 +961,15 @@
        viewBox="0 0 10 6"
        markerUnits="strokeWidth">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="0,0 10,3 0,6 "
          fill="#b71c1c"
          id="polygon76" />
     </marker>
   </defs>
   <!-- Learnable parameters highlight box -->
   <rect
-     x="137"
-     y="-23"
+     x="1193.3933"
+     y="4.8364563"
      width="352.6402"
      height="219.17432"
      fill="#ffebee"
@@ -1007,8 +978,8 @@
      rx="3"
      id="rect76" />
   <text
-     x="283.35071"
-     y="12.476044"
+     x="1339.744"
+     y="40.3125"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
@@ -1016,36 +987,36 @@
      id="text76"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Learnable Parameters</text>
   <text
-     x="223.35071"
-     y="43.436073"
+     x="1279.744"
+     y="71.27253"
      font-size="9"
      fill="#c2185b"
      id="text77"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• γ[j,l] - cylindrification</text>
   <text
-     x="223.35071"
-     y="75.196068"
+     x="1279.744"
+     y="103.03252"
      font-size="9"
      fill="#c2185b"
      id="text78"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• c[j,l] - constants</text>
   <text
-     x="223.35071"
-     y="106.95605"
+     x="1279.744"
+     y="134.79251"
      font-size="9"
      fill="#c2185b"
      id="text79"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• W_body[j] - capture</text>
   <text
-     x="223.35071"
-     y="138.71605"
+     x="1279.744"
+     y="166.55251"
      font-size="9"
      fill="#c2185b"
      id="text80"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">• W_slot[j] - assignment</text>
   <text
-     x="223.35071"
-     y="170.47604"
+     x="1279.744"
+     y="198.3125"
      font-size="9"
      fill="#c2185b"
      id="text81"
@@ -1054,5 +1025,506 @@
      xml:space="preserve"
      id="text82"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect82);display:inline;fill:#000000"
-     transform="translate(-1112.6493,128.47604)" />
+     transform="translate(-56.256008,156.3125)" />
+  <g
+     transform="matrix(2.66666,0,0,2.66666,224.46551,436.27083)"
+     ns31:version="1.8.2"
+     ns31:texconverter="pdflatex"
+     ns31:pdfconverter="inkscape"
+     ns31:text="% \u03a3(1-\u03b3[j,l])\xb7(c[j,l]-WM[:,:,l])\xb2\n$$ \\sum (1-\\gamma[j,l]) \\cdot (c[j,l] - WM[:,:,l])^2 $$"
+     ns31:preamble="/usr/share/inkscape/extensions/textext/default_packages.tex"
+     ns31:scale="2.0"
+     ns31:alignment="middle center"
+     ns31:stroke-to-path="0"
+     ns31:inkscapeversion="1.2.2"
+     ns31:jacobian_sqrt="2.66666"
+     id="g841">
+    <defs
+       id="id-e8addfa6-8f2f-4e2f-b9a2-fa6bd1cad0fa">
+      <g
+         id="id-6df12a61-f6ba-4bb1-96bd-b5e6566a20e4">
+        <g
+           id="id-c50171e9-d75c-4f98-b5f1-81a481d79e98">
+          <path
+             d="m 12.625,13.953125 1.203125,-3.1875 h -0.25 c -0.390625,1.03125 -1.453125,1.71875 -2.59375,2.015625 -0.203125,0.04687 -1.1875,0.3125 -3.09375,0.3125 H 1.875 L 6.953125,7.140625 C 7.015625,7.0625 7.03125,7.03125 7.03125,6.984375 c 0,-0.03125 0,-0.0625 -0.0625,-0.15625 L 2.328125,0.484375 H 7.78125 c 1.34375,0 2.25,0.140625 2.34375,0.15625 0.53125,0.078125 1.40625,0.25 2.1875,0.75 0.25,0.15625 0.921875,0.609375 1.265625,1.40625 h 0.25 L 12.625,0 H 0.84375 c -0.234375,0 -0.25,0.015625 -0.28125,0.0625 0,0.03125 0,0.234375 0,0.34375 l 5.265625,7.203125 -5.15625,6.0625 C 0.5625,13.78125 0.5625,13.84375 0.5625,13.84375 c 0,0.109375 0.09375,0.109375 0.28125,0.109375 z m 0,0"
+             id="id-44e3bbe3-c2a8-4303-ac32-eb974b5308f2" />
+        </g>
+        <g
+           id="id-da0e8730-3518-470d-aa63-c812c19e43bd">
+          <path
+             d="m 3.296875,2.390625 c 0,-0.03125 0,-0.046875 -0.171875,-0.21875 C 1.890625,0.921875 1.5625,-0.96875 1.5625,-2.5 c 0,-1.734375 0.375,-3.46875 1.609375,-4.703125 0.125,-0.125 0.125,-0.140625 0.125,-0.171875 0,-0.078125 -0.03125,-0.109375 -0.09375,-0.109375 -0.109375,0 -1,0.6875 -1.59375,1.953125 -0.5,1.09375 -0.625,2.203125 -0.625,3.03125 0,0.78125 0.109375,1.984375 0.65625,3.125 C 2.25,1.84375 3.09375,2.5 3.203125,2.5 c 0.0625,0 0.09375,-0.03125 0.09375,-0.109375 z m 0,0"
+             id="id-c15b6653-6d9c-468d-a064-b245231b7f98" />
+        </g>
+        <g
+           id="id-9579b739-8418-4ca4-b828-e1400c762d78">
+          <path
+             d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+             id="id-c42f1ba0-2779-41c3-bdbf-be8ff2678fc1" />
+        </g>
+        <g
+           id="id-89499480-7ec4-4290-b0fb-4bbd25802b5f">
+          <path
+             d="M 2.546875,2.5 V 2.09375 h -0.96875 v -9.171875 h 0.96875 v -0.40625 h -1.375 V 2.5 Z m 0,0"
+             id="id-c4dd7314-9022-4a68-84de-90debb82fe57" />
+        </g>
+        <g
+           id="id-67c963f0-be4c-42b9-8361-eed51ced1648">
+          <path
+             d="M 1.578125,-7.484375 H 0.21875 v 0.40625 H 1.1875 V 2.09375 H 0.21875 V 2.5 h 1.359375 z m 0,0"
+             id="id-a8395dc2-b7d9-4d1d-8be1-0927876e2e15" />
+        </g>
+        <g
+           id="id-a4dfe166-0aa2-467e-aa3d-d93aaa6d7565">
+          <path
+             d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
+             id="id-3e08dc93-15ce-4aba-80f3-c1502b17cbaa" />
+        </g>
+        <g
+           id="id-4a07fa1c-f17b-44f3-8b1a-638e322c8630">
+          <path
+             d="m 1.90625,-3.765625 c 0,-0.296875 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.234375 -0.53125,0.53125 0,0.28125 0.234375,0.53125 0.53125,0.53125 0.28125,0 0.515625,-0.25 0.515625,-0.53125 z m 0,3.234375 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
+             id="id-331d4e26-8e14-4570-aee8-ab44cf8e88c0" />
+        </g>
+        <g
+           id="id-c53f97c1-7bd0-4148-81f1-30da072d1315">
+          <path
+             d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 1.171875 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+             id="id-713c2730-c1f9-476e-b18f-c9debe26eb8b" />
+        </g>
+        <g
+           id="id-d2a6fba7-b733-46c1-bc54-062305920db5">
+          <path
+             d="m 1.90625,-2.5 c 0,-0.28125 -0.234375,-0.515625 -0.515625,-0.515625 -0.296875,0 -0.53125,0.234375 -0.53125,0.515625 0,0.296875 0.234375,0.53125 0.53125,0.53125 0.28125,0 0.515625,-0.234375 0.515625,-0.53125 z m 0,0"
+             id="id-4b9e73f9-bc68-49e6-9130-4c137e7287f8" />
+        </g>
+        <g
+           id="id-7bf84a69-5a8a-4df5-965d-a81c73192b83">
+          <path
+             d="M 0.40625,-2.53125 C 0.796875,-3.671875 1.890625,-3.6875 2,-3.6875 c 1.5,0 1.609375,1.75 1.609375,2.53125 0,0.609375 -0.046875,0.78125 -0.125,0.984375 -0.21875,0.71875 -0.515625,1.875 -0.515625,2.140625 0,0.109375 0.046875,0.171875 0.125,0.171875 0.140625,0 0.21875,-0.21875 0.328125,-0.59375 C 3.65625,0.703125 3.75,0.140625 3.78125,-0.171875 c 0.03125,-0.125 0.046875,-0.25 0.09375,-0.390625 0.3125,-0.984375 0.953125,-2.46875 1.34375,-3.25 0.078125,-0.125 0.1875,-0.34375 0.1875,-0.390625 0,-0.09375 -0.09375,-0.09375 -0.109375,-0.09375 -0.03125,0 -0.09375,0 -0.125,0.0625 C 4.65625,-3.28125 4.25,-2.28125 3.859375,-1.28125 3.84375,-1.578125 3.84375,-2.34375 3.453125,-3.3125 3.203125,-3.921875 2.8125,-4.40625 2.125,-4.40625 c -1.25,0 -1.953125,1.515625 -1.953125,1.828125 0,0.09375 0.09375,0.09375 0.203125,0.09375 z m 0,0"
+             id="id-a419eb29-2956-4cf2-a4dd-9c4d720f64a8" />
+        </g>
+        <g
+           id="id-f5499954-5943-471b-a846-3e6a67daa68e">
+          <path
+             d="m 3.953125,-6.234375 c 0,-0.1875 -0.140625,-0.359375 -0.375,-0.359375 -0.234375,0 -0.53125,0.234375 -0.53125,0.53125 0,0.203125 0.140625,0.359375 0.375,0.359375 0.265625,0 0.53125,-0.265625 0.53125,-0.53125 z m -2,6.734375 c -0.1875,0.75 -0.671875,1.328125 -1.21875,1.328125 -0.0625,0 -0.21875,0 -0.390625,-0.09375 0.296875,-0.0625 0.4375,-0.328125 0.4375,-0.53125 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.25,0 -0.53125,0.203125 -0.53125,0.5625 0,0.40625 0.390625,0.625 0.875,0.625 0.703125,0 1.625,-0.53125 1.875,-1.515625 L 3.53125,-3.125 c 0.0625,-0.1875 0.0625,-0.328125 0.0625,-0.359375 0,-0.578125 -0.421875,-0.921875 -0.921875,-0.921875 -1.015625,0 -1.578125,1.453125 -1.578125,1.53125 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.09375,0 0.109375,-0.015625 0.1875,-0.203125 0.25,-0.609375 0.703125,-1.21875 1.25,-1.21875 0.140625,0 0.3125,0.046875 0.3125,0.453125 0,0.234375 -0.015625,0.34375 -0.0625,0.515625 z m 0,0"
+             id="id-4b717452-6379-46f5-b291-976ce402112a" />
+        </g>
+        <g
+           id="id-28cdfbaa-e1e8-4f5d-a876-88cdf2a0b47b">
+          <path
+             d="m 2.03125,-0.015625 c 0,-0.65625 -0.25,-1.046875 -0.640625,-1.046875 -0.328125,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.265625 1.0625,0 1.390625,0 1.5,0 1.640625,-0.046875 1.734375,-0.125 1.765625,-0.15625 1.78125,-0.15625 1.78125,-0.15625 c 0.015625,0 0.015625,0 0.015625,0.140625 0,0.75 -0.34375,1.34375 -0.671875,1.671875 -0.109375,0.109375 -0.109375,0.125 -0.109375,0.15625 0,0.078125 0.046875,0.109375 0.09375,0.109375 0.109375,0 0.921875,-0.765625 0.921875,-1.9375 z m 0,0"
+             id="id-48c0bcd6-753a-4887-9ec5-0f1b41abe7eb" />
+        </g>
+        <g
+           id="id-d9deacec-1407-4764-a46d-7d0611a802da">
+          <path
+             d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
+             id="id-6537e331-f4ba-4e9a-a934-dcdf2396e709" />
+        </g>
+        <g
+           id="id-c0f7560c-ff4c-490a-8c40-7d91bfcaf8e9">
+          <path
+             d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+             id="id-057cbe87-d935-463c-b785-3c9a69998d12" />
+        </g>
+        <g
+           id="id-e4f1505e-5e2f-4647-b2d5-b3a7d7aeb530">
+          <path
+             d="m 9.140625,-5.65625 c 0.25,-0.4375 0.484375,-0.796875 1.125,-0.84375 0.07813,-0.015625 0.1875,-0.015625 0.1875,-0.203125 0,-0.03125 -0.04687,-0.109375 -0.125,-0.109375 -0.234375,0 -0.515625,0.03125 -0.765625,0.03125 -0.34375,0 -0.703125,-0.03125 -1.046875,-0.03125 -0.046875,0 -0.1875,0 -0.1875,0.1875 0,0.109375 0.09375,0.125 0.15625,0.125 0.234375,0.015625 0.59375,0.09375 0.59375,0.390625 0,0.109375 -0.0625,0.1875 -0.140625,0.328125 L 6.25,-1.09375 5.875,-6.03125 c 0,-0.203125 -0.015625,-0.453125 0.703125,-0.46875 0.171875,0 0.265625,0 0.265625,-0.203125 0,-0.09375 -0.109375,-0.109375 -0.140625,-0.109375 -0.40625,0 -0.828125,0.03125 -1.21875,0.03125 -0.234375,0 -0.8125,-0.03125 -1.046875,-0.03125 -0.0625,0 -0.1875,0 -0.1875,0.203125 C 4.25,-6.5 4.34375,-6.5 4.484375,-6.5 4.921875,-6.5 5,-6.4375 5.015625,-6.25 l 0.0625,0.765625 -2.53125,4.390625 -0.375,-5.046875 c 0,-0.125 0,-0.34375 0.765625,-0.359375 0.09375,0 0.203125,0 0.203125,-0.203125 C 3.140625,-6.8125 3.015625,-6.8125 3,-6.8125 c -0.390625,0 -0.8125,0.03125 -1.21875,0.03125 -0.359375,0 -0.71875,-0.03125 -1.046875,-0.03125 -0.0625,0 -0.1875,0 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.5,0 0.515625,0.09375 0.53125,0.375 l 0.453125,6.078125 c 0,0.1875 0.015625,0.265625 0.15625,0.265625 0.109375,0 0.140625,-0.0625 0.234375,-0.203125 l 2.9375,-5.09375 0.359375,5.03125 C 5.5,0.171875 5.515625,0.21875 5.625,0.21875 c 0.140625,0 0.203125,-0.09375 0.25,-0.1875 z m 0,0"
+             id="id-b85d7392-5d46-4dcb-a4bc-eb3e07aa4959" />
+        </g>
+        <g
+           id="id-ded6c2c9-7a27-4630-b6a1-1e638cce54df">
+          <path
+             d="M 9.234375,-6.046875 C 9.328125,-6.40625 9.34375,-6.5 10.09375,-6.5 c 0.21875,0 0.3125,0 0.3125,-0.203125 0,-0.109375 -0.09375,-0.109375 -0.265625,-0.109375 h -1.3125 c -0.265625,0 -0.28125,0 -0.390625,0.1875 L 4.796875,-0.9375 4.015625,-6.578125 C 3.984375,-6.8125 3.96875,-6.8125 3.703125,-6.8125 H 2.34375 c -0.1875,0 -0.296875,0 -0.296875,0.1875 0,0.125 0.09375,0.125 0.28125,0.125 0.140625,0 0.3125,0.015625 0.4375,0.015625 0.15625,0.03125 0.21875,0.046875 0.21875,0.171875 0,0.03125 -0.015625,0.0625 -0.046875,0.1875 l -1.265625,5.0625 c -0.09375,0.40625 -0.265625,0.71875 -1.078125,0.75 -0.046875,0 -0.171875,0.015625 -0.171875,0.1875 0,0.09375 0.0625,0.125 0.140625,0.125 0.3125,0 0.65625,-0.03125 1,-0.03125 C 1.890625,-0.03125 2.25,0 2.578125,0 c 0.046875,0 0.1875,0 0.1875,-0.203125 0,-0.109375 -0.109375,-0.109375 -0.1875,-0.109375 -0.5625,0 -0.671875,-0.203125 -0.671875,-0.4375 0,-0.0625 0,-0.125 0.03125,-0.234375 L 3.296875,-6.40625 H 3.3125 l 0.859375,6.171875 C 4.1875,-0.109375 4.203125,0 4.3125,0 4.421875,0 4.484375,-0.109375 4.53125,-0.171875 l 4.03125,-6.3125 h 0.015625 l -1.4375,5.703125 c -0.09375,0.390625 -0.109375,0.46875 -0.90625,0.46875 -0.15625,0 -0.265625,0 -0.265625,0.1875 C 5.96875,0 6.078125,0 6.109375,0 6.390625,0 7.0625,-0.03125 7.34375,-0.03125 7.75,-0.03125 8.1875,0 8.59375,0 8.65625,0 8.78125,0 8.78125,-0.203125 8.78125,-0.3125 8.6875,-0.3125 8.5,-0.3125 c -0.359375,0 -0.640625,0 -0.640625,-0.171875 0,-0.046875 0,-0.0625 0.046875,-0.25 z m 0,0"
+             id="id-2b67ac18-195c-48d4-9001-591823cebf08" />
+        </g>
+        <g
+           id="id-a4b8f3b8-9f4b-4010-bd09-cd634fb512b6">
+          <path
+             d="M 3.515625,-1.265625 H 3.28125 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 C 3.046875,-0.59375 2.515625,-0.59375 2.40625,-0.59375 H 1.125 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 h 2.875 z m 0,0"
+             id="id-ce44ccb9-0869-4c58-8d55-dde39b3a7075" />
+        </g>
+      </g>
+    </defs>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-e171f5a3-c0dc-4281-9b79-b895e32665f0"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(225.599,137.255)"
+         id="g1410">
+        <path
+           d="m 12.625,13.953125 1.203125,-3.1875 h -0.25 c -0.390625,1.03125 -1.453125,1.71875 -2.59375,2.015625 -0.203125,0.04687 -1.1875,0.3125 -3.09375,0.3125 H 1.875 L 6.953125,7.140625 C 7.015625,7.0625 7.03125,7.03125 7.03125,6.984375 c 0,-0.03125 0,-0.0625 -0.0625,-0.15625 L 2.328125,0.484375 H 7.78125 c 1.34375,0 2.25,0.140625 2.34375,0.15625 0.53125,0.078125 1.40625,0.25 2.1875,0.75 0.25,0.15625 0.921875,0.609375 1.265625,1.40625 h 0.25 L 12.625,0 H 0.84375 c -0.234375,0 -0.25,0.015625 -0.28125,0.0625 0,0.03125 0,0.234375 0,0.34375 l 5.265625,7.203125 -5.15625,6.0625 C 0.5625,13.78125 0.5625,13.84375 0.5625,13.84375 c 0,0.109375 0.09375,0.109375 0.28125,0.109375 z m 0,0"
+           id="id-e53537a7-b46e-4890-a9d2-355a50d2233d" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-0af24a64-2a66-42ac-9d39-a388e2003c86"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(239.99,146.72)"
+         id="g1414">
+        <path
+           d="m 3.296875,2.390625 c 0,-0.03125 0,-0.046875 -0.171875,-0.21875 C 1.890625,0.921875 1.5625,-0.96875 1.5625,-2.5 c 0,-1.734375 0.375,-3.46875 1.609375,-4.703125 0.125,-0.125 0.125,-0.140625 0.125,-0.171875 0,-0.078125 -0.03125,-0.109375 -0.09375,-0.109375 -0.109375,0 -1,0.6875 -1.59375,1.953125 -0.5,1.09375 -0.625,2.203125 -0.625,3.03125 0,0.78125 0.109375,1.984375 0.65625,3.125 C 2.25,1.84375 3.09375,2.5 3.203125,2.5 c 0.0625,0 0.09375,-0.03125 0.09375,-0.109375 z m 0,0"
+           id="id-8be5876a-2dfc-464e-afe6-ce894fa33915" />
+      </g>
+      <g
+         transform="translate(243.864,146.72)"
+         id="g1417">
+        <path
+           d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+           id="id-9fe7aaec-13e4-4d44-b113-533716582be2" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-6861f221-a815-470b-98ee-67cb8c53822a"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(251.059,146.72)"
+         id="g1421">
+        <path
+           d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 1.171875 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+           id="id-33a99116-07c1-4ee8-bc50-f97f61394db7" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-a2014834-b580-4ea6-87c0-b856f0cf0439"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(261.022,146.72)"
+         id="g1425">
+        <path
+           d="M 0.40625,-2.53125 C 0.796875,-3.671875 1.890625,-3.6875 2,-3.6875 c 1.5,0 1.609375,1.75 1.609375,2.53125 0,0.609375 -0.046875,0.78125 -0.125,0.984375 -0.21875,0.71875 -0.515625,1.875 -0.515625,2.140625 0,0.109375 0.046875,0.171875 0.125,0.171875 0.140625,0 0.21875,-0.21875 0.328125,-0.59375 C 3.65625,0.703125 3.75,0.140625 3.78125,-0.171875 c 0.03125,-0.125 0.046875,-0.25 0.09375,-0.390625 0.3125,-0.984375 0.953125,-2.46875 1.34375,-3.25 0.078125,-0.125 0.1875,-0.34375 0.1875,-0.390625 0,-0.09375 -0.09375,-0.09375 -0.109375,-0.09375 -0.03125,0 -0.09375,0 -0.125,0.0625 C 4.65625,-3.28125 4.25,-2.28125 3.859375,-1.28125 3.84375,-1.578125 3.84375,-2.34375 3.453125,-3.3125 3.203125,-3.921875 2.8125,-4.40625 2.125,-4.40625 c -1.25,0 -1.953125,1.515625 -1.953125,1.828125 0,0.09375 0.09375,0.09375 0.203125,0.09375 z m 0,0"
+           id="id-4dfa2abc-b99a-4148-acd8-0507764d7059" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-391c197b-7215-49eb-8bf8-52f265b150b3"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(266.733,146.72)"
+         id="g1429">
+        <path
+           d="M 2.546875,2.5 V 2.09375 h -0.96875 v -9.171875 h 0.96875 v -0.40625 h -1.375 V 2.5 Z m 0,0"
+           id="id-764ed6b9-d793-4abc-a2ca-531a88c00e50" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-3e0f1198-4ca9-4009-a737-bad5858ea1c1"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(269.501,146.72)"
+         id="g1433">
+        <path
+           d="m 3.953125,-6.234375 c 0,-0.1875 -0.140625,-0.359375 -0.375,-0.359375 -0.234375,0 -0.53125,0.234375 -0.53125,0.53125 0,0.203125 0.140625,0.359375 0.375,0.359375 0.265625,0 0.53125,-0.265625 0.53125,-0.53125 z m -2,6.734375 c -0.1875,0.75 -0.671875,1.328125 -1.21875,1.328125 -0.0625,0 -0.21875,0 -0.390625,-0.09375 0.296875,-0.0625 0.4375,-0.328125 0.4375,-0.53125 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.25,0 -0.53125,0.203125 -0.53125,0.5625 0,0.40625 0.390625,0.625 0.875,0.625 0.703125,0 1.625,-0.53125 1.875,-1.515625 L 3.53125,-3.125 c 0.0625,-0.1875 0.0625,-0.328125 0.0625,-0.359375 0,-0.578125 -0.421875,-0.921875 -0.921875,-0.921875 -1.015625,0 -1.578125,1.453125 -1.578125,1.53125 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.09375,0 0.109375,-0.015625 0.1875,-0.203125 0.25,-0.609375 0.703125,-1.21875 1.25,-1.21875 0.140625,0 0.3125,0.046875 0.3125,0.453125 0,0.234375 -0.015625,0.34375 -0.0625,0.515625 z m 0,0"
+           id="id-ca1ba661-f7cd-42fc-a80a-e03c137a05d5" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-0e17309f-3bdc-4f80-9a00-70e8fce6c655"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(273.624,146.72)"
+         id="g1437">
+        <path
+           d="m 2.03125,-0.015625 c 0,-0.65625 -0.25,-1.046875 -0.640625,-1.046875 -0.328125,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.265625 1.0625,0 1.390625,0 1.5,0 1.640625,-0.046875 1.734375,-0.125 1.765625,-0.15625 1.78125,-0.15625 1.78125,-0.15625 c 0.015625,0 0.015625,0 0.015625,0.140625 0,0.75 -0.34375,1.34375 -0.671875,1.671875 -0.109375,0.109375 -0.109375,0.125 -0.109375,0.15625 0,0.078125 0.046875,0.109375 0.09375,0.109375 0.109375,0 0.921875,-0.765625 0.921875,-1.9375 z m 0,0"
+           id="id-f4485714-974d-45f0-9640-94a3a329c83b" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-604dc9f2-65f5-4cff-b9e4-60f5ca8e7194"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(278.045,146.72)"
+         id="g1441">
+        <path
+           d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
+           id="id-6c4aaee4-32f7-4717-a7f9-78b0b68d6f1a" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-d7d52d25-92b6-4905-89c3-926e98d40815"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(281.217,146.72)"
+         id="g1445">
+        <path
+           d="M 1.578125,-7.484375 H 0.21875 v 0.40625 H 1.1875 V 2.09375 H 0.21875 V 2.5 h 1.359375 z m 0,0"
+           id="id-9e758216-b9ff-4c4d-a736-f17389c1d2ae" />
+      </g>
+      <g
+         transform="translate(283.985,146.72)"
+         id="g1448">
+        <path
+           d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
+           id="id-75b020e1-d829-431e-9183-5a9ceb08d194" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-17fff802-7d1e-4712-a1c0-3721e2dd9622"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(290.072,146.72)"
+         id="g1452">
+        <path
+           d="m 1.90625,-2.5 c 0,-0.28125 -0.234375,-0.515625 -0.515625,-0.515625 -0.296875,0 -0.53125,0.234375 -0.53125,0.515625 0,0.296875 0.234375,0.53125 0.53125,0.53125 0.28125,0 0.515625,-0.234375 0.515625,-0.53125 z m 0,0"
+           id="id-f27a7e5a-5cf4-40b4-ba9c-d0821778d2eb" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-b57d55e7-478b-479d-8645-ef6b2429f7df"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(295.054,146.72)"
+         id="g1456">
+        <path
+           d="m 3.296875,2.390625 c 0,-0.03125 0,-0.046875 -0.171875,-0.21875 C 1.890625,0.921875 1.5625,-0.96875 1.5625,-2.5 c 0,-1.734375 0.375,-3.46875 1.609375,-4.703125 0.125,-0.125 0.125,-0.140625 0.125,-0.171875 0,-0.078125 -0.03125,-0.109375 -0.09375,-0.109375 -0.109375,0 -1,0.6875 -1.59375,1.953125 -0.5,1.09375 -0.625,2.203125 -0.625,3.03125 0,0.78125 0.109375,1.984375 0.65625,3.125 C 2.25,1.84375 3.09375,2.5 3.203125,2.5 c 0.0625,0 0.09375,-0.03125 0.09375,-0.109375 z m 0,0"
+           id="id-5c3988db-1309-40c5-bb25-d029413ef5f4" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-2d23bc69-4ebd-4731-8201-ae34272dd17c"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(298.928,146.72)"
+         id="g1460">
+        <path
+           d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+           id="id-519f8713-1b45-42af-9223-12356c22e6e9" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-8e3b6213-723e-4df5-96d6-bfdae82f8e7d"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(303.239,146.72)"
+         id="g1464">
+        <path
+           d="M 2.546875,2.5 V 2.09375 h -0.96875 v -9.171875 h 0.96875 v -0.40625 h -1.375 V 2.5 Z m 0,0"
+           id="id-2d55c72b-79d3-4c42-8b82-fd2c0d1915e2" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-4b51391e-77c1-4cfd-b376-88c3a4064d8d"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(306.007,146.72)"
+         id="g1468">
+        <path
+           d="m 3.953125,-6.234375 c 0,-0.1875 -0.140625,-0.359375 -0.375,-0.359375 -0.234375,0 -0.53125,0.234375 -0.53125,0.53125 0,0.203125 0.140625,0.359375 0.375,0.359375 0.265625,0 0.53125,-0.265625 0.53125,-0.53125 z m -2,6.734375 c -0.1875,0.75 -0.671875,1.328125 -1.21875,1.328125 -0.0625,0 -0.21875,0 -0.390625,-0.09375 0.296875,-0.0625 0.4375,-0.328125 0.4375,-0.53125 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.25,0 -0.53125,0.203125 -0.53125,0.5625 0,0.40625 0.390625,0.625 0.875,0.625 0.703125,0 1.625,-0.53125 1.875,-1.515625 L 3.53125,-3.125 c 0.0625,-0.1875 0.0625,-0.328125 0.0625,-0.359375 0,-0.578125 -0.421875,-0.921875 -0.921875,-0.921875 -1.015625,0 -1.578125,1.453125 -1.578125,1.53125 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.09375,0 0.109375,-0.015625 0.1875,-0.203125 0.25,-0.609375 0.703125,-1.21875 1.25,-1.21875 0.140625,0 0.3125,0.046875 0.3125,0.453125 0,0.234375 -0.015625,0.34375 -0.0625,0.515625 z m 0,0"
+           id="id-424de7f9-4f1c-4da5-9ba0-febeefe0fe27" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-33c2a0a7-c54c-47c5-a88c-c2563d10722b"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(310.13,146.72)"
+         id="g1472">
+        <path
+           d="m 2.03125,-0.015625 c 0,-0.65625 -0.25,-1.046875 -0.640625,-1.046875 -0.328125,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.265625 1.0625,0 1.390625,0 1.5,0 1.640625,-0.046875 1.734375,-0.125 1.765625,-0.15625 1.78125,-0.15625 1.78125,-0.15625 c 0.015625,0 0.015625,0 0.015625,0.140625 0,0.75 -0.34375,1.34375 -0.671875,1.671875 -0.109375,0.109375 -0.109375,0.125 -0.109375,0.15625 0,0.078125 0.046875,0.109375 0.09375,0.109375 0.109375,0 0.921875,-0.765625 0.921875,-1.9375 z m 0,0"
+           id="id-464ccd74-4910-4e43-a3f4-262663a6c2a1" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-83261c4d-6207-4680-9908-b8c3f70f7523"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(314.551,146.72)"
+         id="g1476">
+        <path
+           d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
+           id="id-cdf21cdc-8d5f-46ed-a0b1-d9472e2a09f2" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-a6035a7f-527f-4b91-bf20-635361abda1c"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(317.723,146.72)"
+         id="g1480">
+        <path
+           d="M 1.578125,-7.484375 H 0.21875 v 0.40625 H 1.1875 V 2.09375 H 0.21875 V 2.5 h 1.359375 z m 0,0"
+           id="id-1eb8dedc-b865-4961-94ff-f50049dc9365" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-58dc3c59-b5c2-4e98-8ca6-53566c5e8611"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(322.704,146.72)"
+         id="g1484">
+        <path
+           d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 1.171875 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+           id="id-952471b1-c1af-4231-a5e6-923048fc4ca8" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-0fea2992-a004-4c0e-ada5-a719f0f74674"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(332.667,146.72)"
+         id="g1488">
+        <path
+           d="m 9.140625,-5.65625 c 0.25,-0.4375 0.484375,-0.796875 1.125,-0.84375 0.07813,-0.015625 0.1875,-0.015625 0.1875,-0.203125 0,-0.03125 -0.04687,-0.109375 -0.125,-0.109375 -0.234375,0 -0.515625,0.03125 -0.765625,0.03125 -0.34375,0 -0.703125,-0.03125 -1.046875,-0.03125 -0.046875,0 -0.1875,0 -0.1875,0.1875 0,0.109375 0.09375,0.125 0.15625,0.125 0.234375,0.015625 0.59375,0.09375 0.59375,0.390625 0,0.109375 -0.0625,0.1875 -0.140625,0.328125 L 6.25,-1.09375 5.875,-6.03125 c 0,-0.203125 -0.015625,-0.453125 0.703125,-0.46875 0.171875,0 0.265625,0 0.265625,-0.203125 0,-0.09375 -0.109375,-0.109375 -0.140625,-0.109375 -0.40625,0 -0.828125,0.03125 -1.21875,0.03125 -0.234375,0 -0.8125,-0.03125 -1.046875,-0.03125 -0.0625,0 -0.1875,0 -0.1875,0.203125 C 4.25,-6.5 4.34375,-6.5 4.484375,-6.5 4.921875,-6.5 5,-6.4375 5.015625,-6.25 l 0.0625,0.765625 -2.53125,4.390625 -0.375,-5.046875 c 0,-0.125 0,-0.34375 0.765625,-0.359375 0.09375,0 0.203125,0 0.203125,-0.203125 C 3.140625,-6.8125 3.015625,-6.8125 3,-6.8125 c -0.390625,0 -0.8125,0.03125 -1.21875,0.03125 -0.359375,0 -0.71875,-0.03125 -1.046875,-0.03125 -0.0625,0 -0.1875,0 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.5,0 0.515625,0.09375 0.53125,0.375 l 0.453125,6.078125 c 0,0.1875 0.015625,0.265625 0.15625,0.265625 0.109375,0 0.140625,-0.0625 0.234375,-0.203125 l 2.9375,-5.09375 0.359375,5.03125 C 5.5,0.171875 5.515625,0.21875 5.625,0.21875 c 0.140625,0 0.203125,-0.09375 0.25,-0.1875 z m 0,0"
+           id="id-024b80cf-d6db-492b-b0d2-52d9f6e24bd1" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-0e833802-098b-4510-915d-1edce213fe59"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(343.46,146.72)"
+         id="g1492">
+        <path
+           d="M 9.234375,-6.046875 C 9.328125,-6.40625 9.34375,-6.5 10.09375,-6.5 c 0.21875,0 0.3125,0 0.3125,-0.203125 0,-0.109375 -0.09375,-0.109375 -0.265625,-0.109375 h -1.3125 c -0.265625,0 -0.28125,0 -0.390625,0.1875 L 4.796875,-0.9375 4.015625,-6.578125 C 3.984375,-6.8125 3.96875,-6.8125 3.703125,-6.8125 H 2.34375 c -0.1875,0 -0.296875,0 -0.296875,0.1875 0,0.125 0.09375,0.125 0.28125,0.125 0.140625,0 0.3125,0.015625 0.4375,0.015625 0.15625,0.03125 0.21875,0.046875 0.21875,0.171875 0,0.03125 -0.015625,0.0625 -0.046875,0.1875 l -1.265625,5.0625 c -0.09375,0.40625 -0.265625,0.71875 -1.078125,0.75 -0.046875,0 -0.171875,0.015625 -0.171875,0.1875 0,0.09375 0.0625,0.125 0.140625,0.125 0.3125,0 0.65625,-0.03125 1,-0.03125 C 1.890625,-0.03125 2.25,0 2.578125,0 c 0.046875,0 0.1875,0 0.1875,-0.203125 0,-0.109375 -0.109375,-0.109375 -0.1875,-0.109375 -0.5625,0 -0.671875,-0.203125 -0.671875,-0.4375 0,-0.0625 0,-0.125 0.03125,-0.234375 L 3.296875,-6.40625 H 3.3125 l 0.859375,6.171875 C 4.1875,-0.109375 4.203125,0 4.3125,0 4.421875,0 4.484375,-0.109375 4.53125,-0.171875 l 4.03125,-6.3125 h 0.015625 l -1.4375,5.703125 c -0.09375,0.390625 -0.109375,0.46875 -0.90625,0.46875 -0.15625,0 -0.265625,0 -0.265625,0.1875 C 5.96875,0 6.078125,0 6.109375,0 6.390625,0 7.0625,-0.03125 7.34375,-0.03125 7.75,-0.03125 8.1875,0 8.59375,0 8.65625,0 8.78125,0 8.78125,-0.203125 8.78125,-0.3125 8.6875,-0.3125 8.5,-0.3125 c -0.359375,0 -0.640625,0 -0.640625,-0.171875 0,-0.046875 0,-0.0625 0.046875,-0.25 z m 0,0"
+           id="id-3310318f-d36a-4ac2-84da-61396679e69c" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-d5a90071-a4d5-4049-9a9e-63267d2e3d8e"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(354.211,146.72)"
+         id="g1496">
+        <path
+           d="M 2.546875,2.5 V 2.09375 h -0.96875 v -9.171875 h 0.96875 v -0.40625 h -1.375 V 2.5 Z m 0,0"
+           id="id-b3b78c12-2396-4cb8-b406-db4fa89b29f4" />
+      </g>
+      <g
+         transform="translate(356.979,146.72)"
+         id="g1499">
+        <path
+           d="m 1.90625,-3.765625 c 0,-0.296875 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.234375 -0.53125,0.53125 0,0.28125 0.234375,0.53125 0.53125,0.53125 0.28125,0 0.515625,-0.25 0.515625,-0.53125 z m 0,3.234375 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
+           id="id-32009b93-4151-4af4-b672-f45ceec654f9" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-61c5c1ab-8739-42f3-bf7c-30743f9bd7b3"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(359.746,146.72)"
+         id="g1503">
+        <path
+           d="m 2.03125,-0.015625 c 0,-0.65625 -0.25,-1.046875 -0.640625,-1.046875 -0.328125,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.265625 1.0625,0 1.390625,0 1.5,0 1.640625,-0.046875 1.734375,-0.125 1.765625,-0.15625 1.78125,-0.15625 1.78125,-0.15625 c 0.015625,0 0.015625,0 0.015625,0.140625 0,0.75 -0.34375,1.34375 -0.671875,1.671875 -0.109375,0.109375 -0.109375,0.125 -0.109375,0.15625 0,0.078125 0.046875,0.109375 0.09375,0.109375 0.109375,0 0.921875,-0.765625 0.921875,-1.9375 z m 0,0"
+           id="id-96f4fdb7-2273-4092-866a-0e38a2723cb6" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-731695cc-4763-4f8b-a85b-74a3a4146b54"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(364.174,146.72)"
+         id="g1507">
+        <path
+           d="m 1.90625,-3.765625 c 0,-0.296875 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.234375 -0.53125,0.53125 0,0.28125 0.234375,0.53125 0.53125,0.53125 0.28125,0 0.515625,-0.25 0.515625,-0.53125 z m 0,3.234375 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
+           id="id-43935334-08b9-4269-9cf3-29adf5620c5c" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-73b36ba0-10f7-41aa-8fde-bfa6ce35329a"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(366.941,146.72)"
+         id="g1511">
+        <path
+           d="m 2.03125,-0.015625 c 0,-0.65625 -0.25,-1.046875 -0.640625,-1.046875 -0.328125,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.265625 1.0625,0 1.390625,0 1.5,0 1.640625,-0.046875 1.734375,-0.125 1.765625,-0.15625 1.78125,-0.15625 1.78125,-0.15625 c 0.015625,0 0.015625,0 0.015625,0.140625 0,0.75 -0.34375,1.34375 -0.671875,1.671875 -0.109375,0.109375 -0.109375,0.125 -0.109375,0.15625 0,0.078125 0.046875,0.109375 0.09375,0.109375 0.109375,0 0.921875,-0.765625 0.921875,-1.9375 z m 0,0"
+           id="id-161c41a9-6fcf-419c-80d8-a9f5f2115e2e" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-5b68b301-445a-4f2d-a88a-b269e3886678"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(371.372,146.72)"
+         id="g1515">
+        <path
+           d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
+           id="id-d74a2b93-8684-4810-84c5-66de46792ba2" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-09fad226-2206-4f93-82bd-d31c401310f1"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(374.537,146.72)"
+         id="g1519">
+        <path
+           d="M 1.578125,-7.484375 H 0.21875 v 0.40625 H 1.1875 V 2.09375 H 0.21875 V 2.5 h 1.359375 z m 0,0"
+           id="id-109c9ce6-416b-43d3-aa82-2df11334f9a5" />
+      </g>
+      <g
+         transform="translate(377.305,146.72)"
+         id="g1522">
+        <path
+           d="m 2.875,-2.5 c 0,-0.765625 -0.109375,-1.96875 -0.65625,-3.109375 -0.59375,-1.21875 -1.453125,-1.875 -1.546875,-1.875 -0.0625,0 -0.109375,0.046875 -0.109375,0.109375 0,0.03125 0,0.046875 0.1875,0.234375 0.984375,0.984375 1.546875,2.5625 1.546875,4.640625 0,1.71875 -0.359375,3.46875 -1.59375,4.71875 C 0.5625,2.34375 0.5625,2.359375 0.5625,2.390625 0.5625,2.453125 0.609375,2.5 0.671875,2.5 0.765625,2.5 1.671875,1.8125 2.25,0.546875 2.765625,-0.546875 2.875,-1.65625 2.875,-2.5 Z m 0,0"
+           id="id-d5f498b0-a508-446d-9028-9bd010787c6f" />
+      </g>
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="id-9142f1bf-b9d0-420a-be59-258bd38dbf70"
+       transform="translate(-226.161,-137.255)">
+      <g
+         transform="translate(381.179,142.606)"
+         id="g1526">
+        <path
+           d="M 3.515625,-1.265625 H 3.28125 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 C 3.046875,-0.59375 2.515625,-0.59375 2.40625,-0.59375 H 1.125 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 h 2.875 z m 0,0"
+           id="id-76afb2fd-a794-4a02-b7b3-41a7482f375f" />
+      </g>
+    </g>
+  </g>
 </svg>
