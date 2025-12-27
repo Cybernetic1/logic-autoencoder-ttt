@@ -403,7 +403,7 @@ class ScalableLogicLM(nn.Module):
 
 ---
 
-## Detailed Clarification: Why VQ Works for Embeddings
+## Appendix 1: Why VQ Works for Embeddings
 
 ### Problem Restatement
 
@@ -519,7 +519,7 @@ Code 247 + AR refinement:
 
 ---
 
-## The Compositionality Question: Multiple Propositions
+## Appendix 2: Compositionality of Multiple Propositions
 
 ### Your Excellent Example
 
@@ -687,7 +687,7 @@ for t in range(max_sequence_length):
 
 **Analogy**: English has ~170K words, but we don't need "170K^sentence_length" unique sentence codes. We compose words into unlimited sentences. Same here: 8K proposition patterns compose into unlimited situations.
 
-### Distinguishing Entities: The Entity Memory Problem
+## Appendix 3:  Distinguishing Entities: The Entity Memory Problem
 
 **You're absolutely right!** Our current network has **fixed constants** (learned parameters), but we need **dynamic entity creation** for "cat_1", "cat_2", etc.
 
@@ -766,7 +766,7 @@ class EntityMemory:
 
 **Variables as Pointers to Entity Memory**:
 
-```pythonIDs** (Simplified):
+**pythonIDs** (Simplified):
 
 ```python
 class LogicRule(nn.Module):
@@ -818,6 +818,8 @@ class LogicRule(nn.Module):
     def resolve_variable(self, var_name):
         """Get the entity ID bound to a variable."""
         return self.variable_bindings.get(var_name)  # Returns integer or None
+```
+
 **Full Generation Process with Entity Memory**:
 
 ```python
@@ -880,11 +882,12 @@ class HierarchicalLogicNetwork(nn.Module):
                 entity_id, entity_embed = entity_memory.create_entity(
                     type_embed, attrs
                 )
-                instantiated.append (using integer IDs):
+        instantiated.append (using integer IDs):
+```
+
+### Generation trace:
 
 ```python
-# Generation trace:
-
 t=0: Code 1523 → [NEW_ENTITY, TYPE_CAT, ATTR_BLACK]
      → entity_memory.create_entity(cat_embed, {"color": black_embed})
      → Returns entity_id = 0
@@ -926,9 +929,9 @@ t=4: Code 3211 → [VAR_REF, PRED_JUMP, VAR_REF]
 #   - They see: integer 0, embedding for "chase", integer 1
 #   - To check types: look up entity_memory[0]["type"] → cat_embed
 #   - To distinguish: simple integer comparison (0 ≠ 1)_variable() → looks at WM, finds "entity_0" (black cat)
-     → resolve_variable() → looks at WM, finds "entity_1" (white cat)
-     → WM: [..., ["entity_0", chase, "entity_1"]]
-     → Logic rules can now distinguish: entity_0 ≠ entity_1
+#     → resolve_variable() → looks at WM, finds "entity_1" (white cat)
+#     → WM: [..., ["entity_0", chase, "entity_1"]]
+#     → Logic rules can now distinguish: entity_0 ≠ entity_1
 
 t=3: Code 1524 → [NEW_ENTITY, TYPE_MAT, ATTR_GREEN]
      → entity_memory.create_entity(mat_embed, green_embed)
@@ -1071,7 +1074,8 @@ entity_memory[1]["attributes"]["color"] == white_embed
 - **Much simpler**: No need to generate unique embeddings, just increment a counter!
      → Resolve: entity_1 (white cat) jumps on entity_2 (green mat)
      → WM: [..., ["entity_1", jump_on, "entity_2"]]
-     
+
+```python     
 t=5: Code → [NEW_ENTITY, TYPE_MAT, ATTR_BLUE]
      → entity_memory.create_entity(mat, blue)
      → Returns "entity_3" (blue mat)
@@ -1081,13 +1085,13 @@ t=6: Code → [VAR_REF, PRED_JUMP, VAR_REF]
      → Resolve: entity_0 (black cat) jumps on entity_3 (blue mat)
      → WM: [..., ["entity_0", jump_on, "entity_3"]]
 
-# Entity memory now contains:
+## Entity memory now contains:
 # - "entity_0": black_cat_embed (unique embedding)
 # - "entity_1": white_cat_embed (different unique embedding)  
 # - "entity_2": green_mat_embed
 # - "entity_3": blue_mat_embed
 
-# All embeddings in same space ℝ^768:
+## All embeddings in same space ℝ^768:
 # - black_cat_embed ≈ cat_embed (high similarity)
 # - white_cat_embed ≈ cat_embed (high similarity)
 # - black_cat_embed ≠ white_cat_embed (distinguishable!)
@@ -1101,7 +1105,7 @@ t=6: Code → [VAR_REF, PRED_JUMP, VAR_REF]
 
 ---
 
-## Updated Open Questions
+# Updated Open Questions
 
 1. **How many codes needed?**
    - 8K-64K for proposition patterns (not complete situations)
@@ -1131,7 +1135,7 @@ t=6: Code → [VAR_REF, PRED_JUMP, VAR_REF]
 
 ---
 
-## Conclusion
+# Conclusion
 
 Both challenges have solutions:
 
