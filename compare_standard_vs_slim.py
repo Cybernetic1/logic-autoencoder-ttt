@@ -139,19 +139,15 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
     return losses, accuracies
 
 
-def compare_network (matching successful training)
+def compare_networks():
+    """Compare standard vs slim logic networks on TTT task."""
+    # Configuration (matching successful training)
     L, W, output_dim = 3, 9, 27  # L=3 for [empty,X,O], output=27 for 9x3
     M, J, I = 6, 3, 4
     num_samples = 10000  # More data like successful training
     epochs = 50
     batch_size = 64
-    lr = 0.00180)
-    
-    # Configuration
-    L, W, output_dim = 2, 9, 9
-    M, J, I = 6, 3, 4
-    num_samples = 2000
-    epochs = 100
+    lr = 0.001
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     
     print(f"\nConfiguration:")
@@ -174,7 +170,15 @@ def compare_network (matching successful training)
     slim_params = sum(p.numel() for p in slim_net.parameters())
     
     print(f"  Standard network: {standard_params:,} parameters")
-    print(f"  Slim network:     {slibatch_size, lr, device=device
+    print(f"  Slim network:     {slim_params:,} parameters")
+    print(f"  Parameter reduction: {(1 - slim_params/standard_params)*100:.1f}%")
+    
+    # Train standard network
+    print(f"\n{'='*80}")
+    print("TRAINING STANDARD NETWORK")
+    print('='*80)
+    standard_losses, standard_accs = train_network(
+        standard_net, data, epochs, batch_size, lr, device=device
     )
     
     # Train slim network
@@ -182,15 +186,7 @@ def compare_network (matching successful training)
     print("TRAINING SLIM NETWORK")
     print('='*80)
     slim_losses, slim_accs = train_network(
-        slim_net, data, epochs, batch_size, lrochs, device=device
-    )
-    
-    # Train slim network
-    print(f"\n{'='*80}")
-    print("TRAINING SLIM NETWORK")
-    print('='*80)
-    slim_losses, slim_accs = train_network(
-        slim_net, data, epochs, device=device
+        slim_net, data, epochs, batch_size, lr, device=device
     )
     
     # Compare results
