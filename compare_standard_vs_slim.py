@@ -18,12 +18,15 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 
 
-def create_ttt_data(num_samples=1000, num_props=9, prop_length=3):
+def create_ttt_data(num_samples=1000, num_props=9, prop_length=2):
     """
     Create synthetic TTT data for autoregressive prediction.
     
-    Each proposition: [empty, X, O] (one-hot encoding)
-    Task: Predict next board state
+    Working memory format: [player, normalized_position]
+    - player ∈ {-1, 0, 1} for {O, empty, X}
+    - position ∈ [-1, +1]: (idx - 4) / 4
+    
+    Task: Predict next board state (9 positions × 3 states)
     """
     data = []
     
@@ -52,28 +55,23 @@ def create_ttt_data(num_samples=1000, num_props=9, prop_length=3):
         else:
             next_board = board
         
-        # Convert to one-hot: [empty, X, O]
-        current_state = torch.zeros(9, 3)
-        next_state = torch.zeros(9, 3)
-        
+        # Convert to working memory: [player, position]
+        current_wm = torch.zeros(9, 2)
         for i in range(9):
-            # Current state
-            if board[i] == 0:
-                current_state[i, 0] = 1  # Empty
-            elif board[i] == 1:
-                current_state[i, 1] = 1  # X
-            else:
-                current_state[i, 2] = 1  # O
-            
-            # Next state
-            if next_board[i] == 0:
-                next_state[i, 0] = 1
-            elif next_board[i] == 1:
-                next_state[i, 1] = 1
-            else:
-                next_state[i, 2] = 1
+            current_wm[i, 0] = board[i]  # player value
+            current_wm[i, 1] = (i - 4) / 4.0  # normalized position
         
-        data.append((current_state, next_state))
+        # Convert next state to one-hot for cross-entropy loss
+        next_state_onehot = torch.zeros(9, 3)
+        for i in range(9):
+            if next_board[i] == 0:
+                next_state_onehot[i, 0] = 1  # Empty
+            elif next_board[i] == 1:
+                next_state_onehot[i, 1] = 1  # X
+            else:
+                next_state_onehot[i, 2] = 1  # O
+        
+        data.append((current_wm, next_state_onehot))
     
     return data
 
@@ -101,12 +99,12 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
                 continue
             
             # Stack batch
-            current_states = torch.stack([b for b, _ in batch]).to(device)
+            working_memory = torch.stack([b for b, _ in batch]).to(device)
             next_states = torch.stack([t for _, t in batch]).to(device)
             
             # Forward pass
             optimizer.zero_grad()
-            predictions = network(current_states)
+            predictions = network(working_memory)
             
             # Reshape predictions to match next_states: (batch, 9, 3)
             # Output is (batch, 27) → reshape to (batch, 9, 3)
@@ -142,10 +140,10 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
 def compare_networks():
     """Compare standard vs slim logic networks on TTT task."""
     # Configuration (matching successful training)
-    L, W, output_dim = 3, 9, 27  # L=3 for [empty,X,O], output=27 for 9x3
-    M, J, I = 6, 3, 4
+    L, W, output_dim = 2, 9, 27  # L=2 for [player,position], output=27 for 9x3
+    M, J, I = 8, 2, 3  # 8 rules, 2 premises, 3 variable slots (matching train_logic_ae_unification.py)
     num_samples = 10000  # More data like successful training
-    epochs = 50
+    epochs = 100  # More epochs
     batch_size = 64
     lr = 0.001
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
