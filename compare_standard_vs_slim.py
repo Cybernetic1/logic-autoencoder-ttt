@@ -18,40 +18,62 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 
 
-def create_ttt_data(num_samples=1000, num_props=9, prop_length=2):
+def create_ttt_data(num_samples=1000, num_props=9, prop_length=3):
     """
     Create synthetic TTT data for autoregressive prediction.
     
-    Each proposition: [player, position]
+    Each proposition: [empty, X, O] (one-hot encoding)
     Task: Predict next board state
     """
     data = []
     
     for _ in range(num_samples):
-        # Random board state
-        board = torch.zeros(num_props, prop_length)
+        # Random number of moves (0-8)
+        num_moves = np.random.randint(0, 8)
         
-        # Random number of moves (1-9)
-        num_moves = np.random.randint(1, 10)
+        # Create board
+        board = [0] * 9
+        available = list(range(9))
         
-        # Make random moves
-        positions = np.random.permutation(num_props)[:num_moves]
-        for i, pos in enumerate(positions):
-            player = (i % 2) + 1  # Alternate between player 1 and 2
-            board[pos, 0] = player  # Player ID
-            board[pos, 1] = 1       # Occupied
+        for i in range(num_moves):
+            if not available:
+                break
+            pos = np.random.choice(available)
+            available.remove(pos)
+            board[pos] = 1 if i % 2 == 0 else -1  # 1 for X, -1 for O
         
-        # Next move: random empty position
-        empty_positions = [i for i in range(num_props) if board[i, 1] == 0]
-        if empty_positions:
-            next_pos = np.random.choice(empty_positions)
-            next_player = (num_moves % 2) + 1
+        current_player = 1 if num_moves % 2 == 0 else -1
+        
+        # Create next board (make one random move)
+        if available:
+            next_board = board.copy()
+            next_pos = np.random.choice(available)
+            next_board[next_pos] = current_player
+        else:
+            next_board = board
+        
+        # Convert to one-hot: [empty, X, O]
+        current_state = torch.zeros(9, 3)
+        next_state = torch.zeros(9, 3)
+        
+        for i in range(9):
+            # Current state
+            if board[i] == 0:
+                current_state[i, 0] = 1  # Empty
+            elif board[i] == 1:
+                current_state[i, 1] = 1  # X
+            else:
+                current_state[i, 2] = 1  # O
             
-            # Target: one-hot over positions, weighted by player
-            target = torch.zeros(num_props)
-            target[next_pos] = 1.0
-            
-            data.append((board, target))
+            # Next state
+            if next_board[i] == 0:
+                next_state[i, 0] = 1
+            elif next_board[i] == 1:
+                next_state[i, 1] = 1
+            else:
+                next_state[i, 2] = 1
+        
+        data.append((current_state, next_state))
     
     return data
 
@@ -79,13 +101,18 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
                 continue
             
             # Stack batch
-            boards = torch.stack([b for b, _ in batch]).to(device)
-            targets = torch.stack([t for _, t in batch]).to(device)
+            current_states = torch.stack([b for b, _ in batch]).to(device)
+            next_states = torch.stack([t for _, t in batch]).to(device)
             
             # Forward pass
             optimizer.zero_grad()
-            outputs = network(boards)
-            loss = criterion(outputs, targets)
+            predictions = network(current_states)
+            
+            # Reshape predictions to match next_states: (batch, 9, 3)
+            # Output is (batch, 27) → reshape to (batch, 9, 3)
+            predictions = predictions.view(-1, 9, 3)
+            
+            loss = criterion(predictions, next_states)
             
             # Backward pass
             loss.backward()
@@ -93,11 +120,12 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
             
             epoch_loss += loss.item()
             
-            # Accuracy: predicted position matches target
-            pred_pos = outputs.argmax(dim=1)
-            true_pos = targets.argmax(dim=1)
-            correct += (pred_pos == true_pos).sum().item()
-            total += len(batch)
+            # Accuracy: percentage of correct cell predictions
+            # For each position, check if predicted state matches
+            pred_states = predictions.argmax(dim=2)  # (batch, 9)
+            true_states = next_states.argmax(dim=2)  # (batch, 9)
+            correct += (pred_states == true_states).sum().item()
+            total += pred_states.numel()
         
         avg_loss = epoch_loss / (len(data) / batch_size)
         accuracy = correct / total
@@ -111,11 +139,13 @@ def train_network(network, data, epochs=50, batch_size=32, lr=0.001, device='cpu
     return losses, accuracies
 
 
-def compare_networks():
-    """Compare standard and slim networks on TTT task."""
-    print("=" * 80)
-    print("COMPARING STANDARD vs SLIM LOGIC NETWORKS ON TTT")
-    print("=" * 80)
+def compare_network (matching successful training)
+    L, W, output_dim = 3, 9, 27  # L=3 for [empty,X,O], output=27 for 9x3
+    M, J, I = 6, 3, 4
+    num_samples = 10000  # More data like successful training
+    epochs = 50
+    batch_size = 64
+    lr = 0.00180)
     
     # Configuration
     L, W, output_dim = 2, 9, 9
@@ -144,15 +174,15 @@ def compare_networks():
     slim_params = sum(p.numel() for p in slim_net.parameters())
     
     print(f"  Standard network: {standard_params:,} parameters")
-    print(f"  Slim network:     {slim_params:,} parameters")
-    print(f"  Reduction:        {100*(1-slim_params/standard_params):.1f}%")
+    print(f"  Slim network:     {slibatch_size, lr, device=device
+    )
     
-    # Train standard network
+    # Train slim network
     print(f"\n{'='*80}")
-    print("TRAINING STANDARD NETWORK")
+    print("TRAINING SLIM NETWORK")
     print('='*80)
-    standard_losses, standard_accs = train_network(
-        standard_net, data, epochs, device=device
+    slim_losses, slim_accs = train_network(
+        slim_net, data, epochs, batch_size, lrochs, device=device
     )
     
     # Train slim network
