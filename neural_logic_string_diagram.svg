@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 1547.0335 1079.4325"
-   width="1547.0334"
-   height="1079.4325"
+   viewBox="0 0 1332.3771 1131.2279"
+   width="1332.3771"
+   height="1131.2279"
    version="1.1"
    id="svg81"
    sodipodi:docname="neural_logic_string_diagram.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="neural_logic_string_diagram.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -18,12 +21,12 @@
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#ffffff"
      inkscape:zoom="1"
-     inkscape:cx="517"
-     inkscape:cy="394.5"
+     inkscape:cx="421"
+     inkscape:cy="558.5"
      inkscape:window-width="1080"
      inkscape:window-height="1897"
      inkscape:window-x="0"
@@ -33,8 +36,8 @@
      showborder="false"
      showgrid="false" />
   <rect
-     x="255.67648"
-     y="274.08636"
+     x="159.93251"
+     y="437.7291"
      width="728.37653"
      height="353.40005"
      fill="#fff3e0"
@@ -45,49 +48,49 @@
      rx="20.838949"
      id="rect10"
      ry="19.979612"
-     style="stroke-width:2;stroke-dasharray:4,4;stroke-dashoffset:0" />
+     style="stroke-width:2;stroke-dasharray:4, 4;stroke-dashoffset:0" />
   <path
      id="line35"
      style="fill:none;stroke:#9c27b0;stroke-width:3;marker-end:url(#arrow-purple)"
-     d="m 791.74397,396.3125 -10e-6,81 18,-1"
+     d="m 696,559.95522 -10e-6,81 18,-1"
      sodipodi:nodetypes="ccc" />
   <path
      id="line54"
      style="fill:none;stroke:#4caf50;stroke-width:3;stroke-dasharray:none;marker-end:url(#marker21887)"
-     d="m 717.74397,420.3125 v 255 H 1011.744"
+     d="m 622,583.95522 v 255 h 294.00003"
      sodipodi:nodetypes="ccc" />
   <path
      id="line27"
      style="stroke:#9c27b0;stroke-width:3;stroke-dasharray:none;marker-end:url(#arrow-purple)"
-     d="m 763.74397,396.3125 h 58"
+     d="m 668,559.95522 h 58"
      sodipodi:nodetypes="cc" />
   <path
      id="line38"
      style="stroke:#00ff00;stroke-width:3;marker-end:url(#TriangleStart)"
-     d="M 943.74396,476.3125 H 1015.744"
+     d="m 847.99999,639.95522 h 72.00004"
      sodipodi:nodetypes="cc" />
   <path
      id="line31"
      style="stroke:#0000ff;stroke-width:3;stroke-dasharray:none;marker-end:url(#marker21887)"
-     d="M 951.74397,401.3125 H 1017.744"
+     d="m 856,564.95522 h 66.00003"
      sodipodi:nodetypes="cc" />
   <path
      style="stroke:#aa4400;stroke-width:3;stroke-dasharray:none;marker-end:url(#TriangleStart)"
-     d="m 1094.2032,821.84323 v 64"
+     d="m 998.45923,985.48595 v 63.99995"
      id="path27645" />
   <path
      id="line45-8"
      style="stroke:#aa4400;stroke-width:3;stroke-dasharray:none;marker-end:url(#TriangleStart-0)"
-     d="m 1093.3624,698.88921 v 72"
+     d="m 997.61843,862.53193 v 72"
      sodipodi:nodetypes="cc" />
   <path
      style="stroke:#aa4400;stroke-width:3;stroke-dasharray:none;marker-end:url(#TriangleStart)"
-     d="m 1197.744,437.3125 h 64"
+     d="m 1102,600.95522 h 64"
      id="line45" />
   <!-- Title -->
   <text
-     x="598.98187"
-     y="33.426727"
+     x="503.23792"
+     y="197.06944"
      font-size="18"
      font-weight="bold"
      text-anchor="middle"
@@ -98,8 +101,8 @@
        id="tspan87">Differentiable Logic Network: String Diagram</tspan></text>
   <!-- Legend -->
   <rect
-     x="597.24719"
-     y="71.227371"
+     x="501.50323"
+     y="234.87009"
      width="318.76248"
      height="102.57288"
      fill="#f5f5f5"
@@ -108,30 +111,30 @@
      rx="3"
      id="rect2" />
   <text
-     x="633.24719"
-     y="101.22737"
+     x="537.50323"
+     y="264.87009"
      font-size="11px"
      font-weight="bold"
      id="text3"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Legend:</text>
   <line
-     x1="625.24719"
-     y1="121.22738"
-     x2="665.24719"
-     y2="121.22738"
+     x1="529.50323"
+     y1="284.87009"
+     x2="569.50323"
+     y2="284.87009"
      stroke="#2196f3"
      stroke-width="3"
      id="line3"
      style="marker-end:url(#marker21887)" />
   <text
-     x="678.24719"
-     y="129.22739"
+     x="582.50323"
+     y="292.87012"
      font-size="10px"
      id="text4"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">= Data wire (tensor)</text>
   <rect
-     x="633.24719"
-     y="138.22739"
+     x="537.50323"
+     y="301.87012"
      width="40"
      height="20"
      fill="#ffffff"
@@ -140,40 +143,40 @@
      rx="2"
      id="rect4" />
   <text
-     x="678.24719"
-     y="156.22737"
+     x="582.50323"
+     y="319.87009"
      font-size="10px"
      id="text5"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">= Operation (function)</text>
   <!-- INPUT: Working Memory -->
   <text
-     x="107.80292"
-     y="300.88943"
+     x="12.058948"
+     y="464.53217"
      font-size="13"
      font-weight="bold"
      fill="#1565c0"
      id="text6"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2196f3;fill-opacity:1">INPUT</text>
   <text
-     x="95.802917"
-     y="326.88943"
+     x="0.058947481"
+     y="490.53217"
      font-size="11"
      fill="#666666"
      id="text7"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2196f3;fill-opacity:1"><tspan
        sodipodi:role="line"
        id="tspan85"
-       x="95.802917"
-       y="326.88943"
+       x="0.058947481"
+       y="490.53217"
        style="line-height:1;fill:#2196f3;fill-opacity:1">Working</tspan><tspan
        sodipodi:role="line"
        id="tspan86"
-       x="95.802917"
-       y="348.22275"
+       x="0.058947481"
+       y="511.86548"
        style="line-height:1;fill:#2196f3;fill-opacity:1">Memory</tspan></text>
   <text
-     x="207.26491"
-     y="348.90881"
+     x="111.52094"
+     y="512.55151"
      font-size="10"
      font-family="monospace"
      fill="#444444"
@@ -182,11 +185,11 @@
   <path
      id="line8"
      style="stroke:#2196f3;stroke-width:3;stroke-dasharray:none;marker-end:url(#arrow-blue)"
-     d="m 95.74397,392.3125 h 216"
+     d="M 0,555.95522 H 216"
      sodipodi:nodetypes="cc" />
   <text
-     x="145.744"
-     y="377.3125"
+     x="50.000034"
+     y="540.9552"
      font-size="9"
      text-anchor="middle"
      fill="#1565c0"
@@ -195,12 +198,12 @@
   <path
      id="line22"
      style="stroke:#ff9800;stroke-width:3;stroke-dasharray:none;marker-end:url(#arrow-orange)"
-     d="m 607.74397,393.3125 h 44"
+     d="m 512,556.95522 h 44"
      sodipodi:nodetypes="cc" />
   <!-- RULE PROCESSING (for one rule) -->
   <rect
-     x="194.22202"
-     y="249.49707"
+     x="98.478043"
+     y="413.1398"
      width="1232.899"
      height="490.79053"
      fill="none"
@@ -210,10 +213,10 @@
      rx="30.229736"
      id="rect9"
      ry="30.323578"
-     style="fill:none;stroke-dasharray:6,6;stroke-dashoffset:0" />
+     style="fill:none;stroke-dasharray:6, 6;stroke-dashoffset:0" />
   <text
-     x="447.41348"
-     y="727.81586"
+     x="351.66953"
+     y="891.45856"
      font-size="12"
      font-weight="bold"
      text-anchor="middle"
@@ -222,8 +225,8 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">single rule processing (repeat M times)</text>
   <!-- FOR EACH PREMISE j -->
   <text
-     x="557.76862"
-     y="650.61176"
+     x="462.02466"
+     y="814.25446"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
@@ -233,11 +236,11 @@
   <path
      id="line14"
      style="fill:none;stroke:#2196f3;stroke-width:3;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#arrow-blue)"
-     d="m 285.744,392.3125 v 48 h 369.99996"
+     d="m 190.00003,555.95522 v 48 h 369.99996"
      sodipodi:nodetypes="ccc" />
   <text
-     x="292.34955"
-     y="461.85138"
+     x="196.60558"
+     y="625.49408"
      font-size="8"
      fill="#666666"
      id="text14"
@@ -245,11 +248,11 @@
   <path
      id="line19"
      style="stroke:#4caf50;stroke-width:3;stroke-dasharray:none;marker-end:url(#arrow-green)"
-     d="m 437.744,395.3125 h 56"
+     d="m 342.00003,558.95522 h 56"
      sodipodi:nodetypes="cc" />
   <rect
-     x="313.07825"
-     y="360.78235"
+     x="217.33427"
+     y="524.42505"
      width="132.05521"
      height="65.411919"
      fill="#ffffff"
@@ -258,16 +261,16 @@
      rx="2.998291"
      id="rect14" />
   <text
-     x="379.74399"
-     y="386.3125"
+     x="284.00003"
+     y="549.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text15"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">match score</text>
   <text
-     x="385.74399"
-     y="455.3125"
+     x="290.00003"
+     y="618.9552"
      font-size="8"
      text-anchor="middle"
      id="text16"
@@ -275,24 +278,24 @@
   <path
      id="line18"
      style="stroke:#ff00ff;stroke-width:2;marker-end:url(#Dot)"
-     d="m 351.74397,320.3125 v 42"
+     d="m 256,483.95522 v 42"
      sodipodi:nodetypes="cc" />
   <path
      id="line18-7"
      style="stroke:#ff00ff;stroke-width:2;marker-end:url(#Dot-3)"
-     d="m 411.74397,320.3125 v 42"
+     d="m 316,483.95522 v 42"
      sodipodi:nodetypes="cc" />
   <text
-     x="477.74399"
-     y="350.3125"
+     x="382.00003"
+     y="513.9552"
      font-size="8"
      text-anchor="middle"
      fill="#4caf50"
      id="text20"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,W)</text>
   <rect
-     x="498.98016"
-     y="365.07358"
+     x="403.23621"
+     y="528.71631"
      width="113.9528"
      height="57.646709"
      fill="#ffffff"
@@ -301,31 +304,31 @@
      rx="3"
      id="rect20" />
   <text
-     x="555.74402"
-     y="388.3125"
+     x="460.00006"
+     y="551.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text21"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">softmax</text>
   <text
-     x="556.7428"
-     y="411.3125"
+     x="460.99884"
+     y="574.9552"
      font-size="8"
      text-anchor="middle"
      id="text22"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(-scores/τ)</text>
   <text
-     x="637.74396"
-     y="352.3125"
+     x="542"
+     y="515.9552"
      font-size="8"
      text-anchor="middle"
      fill="#ff9800"
      id="text23"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">α (batch,W)</text>
   <rect
-     x="657.32196"
-     y="380.3176"
+     x="561.578"
+     y="543.96033"
      width="114.4244"
      height="73.265968"
      fill="#ffffff"
@@ -335,39 +338,39 @@
      id="rect23"
      ry="8.1320696" />
   <text
-     x="713.74396"
-     y="409.3125"
+     x="618"
+     y="572.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text24"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Einsum</text>
   <text
-     x="715.74396"
-     y="436.3125"
+     x="620"
+     y="599.9552"
      font-size="8"
      text-anchor="middle"
      id="text25"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">bw,bwl→bl</text>
   <text
-     x="789.74396"
-     y="347.3125"
+     x="694"
+     y="510.95523"
      font-size="9"
      text-anchor="middle"
      fill="#9c27b0"
      id="text27"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">best prop</text>
   <text
-     x="783.74396"
-     y="370.3125"
+     x="688"
+     y="533.9552"
      font-size="8"
      text-anchor="middle"
      fill="#9c27b0"
      id="text28"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">(batch,L)</text>
   <rect
-     x="833.04059"
-     y="370.60403"
+     x="737.29663"
+     y="534.24677"
      width="129.83899"
      height="60.562683"
      fill="#ffffff"
@@ -378,26 +381,26 @@
   <path
      id="line18-7-5"
      style="stroke:#ff00ff;stroke-width:2;marker-end:url(#Dot-3-5)"
-     d="m 895,321.16667 v 48"
+     d="m 799.25603,484.80939 v 48"
      sodipodi:nodetypes="cc" />
   <text
-     x="893.74396"
-     y="394.3125"
+     x="798"
+     y="557.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text29"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Body[j]</text>
   <text
-     x="895.74396"
-     y="420.3125"
+     x="800"
+     y="583.9552"
      font-size="8"
      text-anchor="middle"
      id="text30"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Linear(L→I)</text>
   <text
-     x="858.74396"
-     y="309.3125"
+     x="763"
+     y="472.95523"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
@@ -406,24 +409,24 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27161">body</tspan>[j]</text>
   <text
-     x="991.74396"
-     y="332.3125"
+     x="896"
+     y="495.95523"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
      id="text32"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff">vars[j]</text>
   <text
-     x="991.74396"
-     y="357.3125"
+     x="896"
+     y="520.9552"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
      id="text33"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff">(batch,I)</text>
   <rect
-     x="819.48297"
-     y="445.60403"
+     x="723.73901"
+     y="609.24677"
      width="144.95419"
      height="65.708466"
      fill="#ffffff"
@@ -434,26 +437,26 @@
   <path
      id="line18-7-9"
      style="stroke:#ff00ff;stroke-width:2;marker-end:url(#Dot-3-6)"
-     d="m 894.14465,545.16329 v -32"
+     d="m 798.40068,708.80601 v -32"
      sodipodi:nodetypes="cc" />
   <text
-     x="893.74396"
-     y="471.3125"
+     x="798"
+     y="634.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text34"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">SlotSelect[j]</text>
   <text
-     x="893.74396"
-     y="499.3125"
+     x="798"
+     y="662.9552"
      font-size="8"
      text-anchor="middle"
      id="text35"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Linear(L→L×I)</text>
   <text
-     x="861.89606"
-     y="568.04443"
+     x="766.1521"
+     y="731.68713"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
@@ -462,16 +465,16 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27163">slot</tspan>[j]</text>
   <text
-     x="1003.744"
-     y="557.3125"
+     x="908.00006"
+     y="720.9552"
      font-size="8"
      text-anchor="middle"
      fill="#795548"
      id="text38"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00d900;fill-opacity:1">slots[j]</text>
   <text
-     x="1005.744"
-     y="534.3125"
+     x="910.00006"
+     y="697.9552"
      font-size="8"
      text-anchor="middle"
      fill="#795548"
@@ -480,11 +483,11 @@
   <path
      id="line50"
      style="fill:none;stroke:#d32f2f;stroke-width:3;stroke-dasharray:none"
-     d="m 1171.1201,674.0108 h 166 V 463.01077"
+     d="m 1075.3761,837.65352 h 166 V 626.65349"
      sodipodi:nodetypes="ccc" />
   <rect
-     x="1028.4678"
-     y="366.74472"
+     x="932.72382"
+     y="530.38745"
      width="187.80836"
      height="128"
      fill="#ffffff"
@@ -495,31 +498,31 @@
      style="fill:#ffffff" />
   <!-- ACCUMULATE across premises -->
   <text
-     x="1127.744"
-     y="390.3125"
+     x="1032"
+     y="553.9552"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text40"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Accumulate</text>
   <text
-     x="1123.744"
-     y="413.3125"
+     x="1028"
+     y="576.9552"
      font-size="9"
      text-anchor="middle"
      id="text41"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Σ over j</text>
   <text
-     x="1123.744"
-     y="435.3125"
+     x="1028"
+     y="598.9552"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
      id="text42"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">captured-vars</text>
   <text
-     x="1123.744"
-     y="458.3125"
+     x="1028"
+     y="621.9552"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
@@ -528,15 +531,15 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27610">avg</tspan> · vars[j]</text>
   <text
-     x="1123.744"
-     y="481.3125"
+     x="1028"
+     y="644.9552"
      font-size="8"
      text-anchor="middle"
      fill="#666666"
      id="text44"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">+= slots[j] · props</text>
   <path
-     d="m 1125.744,496.3125 v 102 H 383.74397 v -138"
+     d="m 1030,659.95522 v 102 H 288 v -138"
      stroke="#f57c00"
      stroke-width="2"
      fill="none"
@@ -545,8 +548,8 @@
      id="path44"
      sodipodi:nodetypes="cccc" />
   <text
-     x="535.39563"
-     y="586.32971"
+     x="439.65167"
+     y="749.97241"
      font-size="9"
      text-anchor="middle"
      fill="#f57c00"
@@ -555,16 +558,16 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
        id="tspan17921">loop j=1..J</tspan></text>
   <text
-     x="1270.1804"
-     y="369.69885"
+     x="1174.4364"
+     y="533.34155"
      font-size="9"
      text-anchor="middle"
      fill="#673ab7"
      id="text46"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#aa4400">captured</text>
   <text
-     x="1269.744"
-     y="393.3125"
+     x="1174"
+     y="556.9552"
      font-size="8"
      text-anchor="middle"
      fill="#673ab7"
@@ -573,7 +576,7 @@
   <!-- HEAD network -->
   <g
      id="g18485"
-     transform="translate(-16)">
+     transform="translate(-111.74397,163.64272)">
     <rect
        x="1286.2189"
        y="408.10934"
@@ -603,8 +606,8 @@
    id="tspan27173">out</tspan>)</text>
   </g>
   <text
-     x="1305.865"
-     y="305.57477"
+     x="1210.121"
+     y="469.2175"
      font-size="9"
      fill="#e91e63"
      font-weight="bold"
@@ -613,23 +616,23 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27165">head</tspan></text>
   <text
-     x="1263.4648"
-     y="642.5968"
+     x="1167.7208"
+     y="806.2395"
      font-size="9"
      fill="#d32f2f"
      id="text51"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:0.9;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"><tspan
        sodipodi:role="line"
        id="tspan35255"
-       x="1263.4648"
-       y="642.5968">output</tspan><tspan
+       x="1167.7208"
+       y="806.2395">output</tspan><tspan
        sodipodi:role="line"
        id="tspan35257"
-       x="1263.4648"
-       y="661.79675">proposition</tspan></text>
+       x="1167.7208"
+       y="825.43945">proposition</tspan></text>
   <text
-     x="1196.5302"
-     y="697.36951"
+     x="1100.7861"
+     y="861.01221"
      font-size="8"
      fill="#d32f2f"
      id="text52"
@@ -638,8 +641,8 @@
    id="tspan27181">out</tspan>)</text>
   <!-- CONFIDENCE weighting -->
   <rect
-     x="1021.4211"
-     y="646.5246"
+     x="925.67712"
+     y="810.1673"
      width="150.0116"
      height="56.793762"
      fill="#ffffff"
@@ -648,16 +651,16 @@
      rx="3"
      id="rect52" />
   <text
-     x="1090.2122"
-     y="669.28473"
+     x="994.4682"
+     y="832.92743"
      font-size="10"
      font-weight="bold"
      text-anchor="middle"
      id="text53"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Confidence</text>
   <text
-     x="1094.2122"
-     y="693.28473"
+     x="998.4682"
+     y="856.92743"
      font-size="8"
      text-anchor="middle"
      id="text54"
@@ -665,7 +668,7 @@
    style="font-size:65%;baseline-shift:super"
    id="tspan35259">-match_quality</tspan></text>
   <path
-     d="M 1013.744,811.3125 H 229.74397 v -401"
+     d="M 918.00003,974.95522 H 134 v -401"
      stroke="#9c27b0"
      stroke-width="2.5"
      fill="none"
@@ -673,18 +676,18 @@
      stroke-dasharray="5, 5"
      id="path61"
      sodipodi:nodetypes="ccc"
-     style="stroke-width:2;stroke-linejoin:round;stroke-dasharray:6,6;marker-end:url(#arrow-purple);stroke-dashoffset:0" />
+     style="stroke-width:2;stroke-linejoin:round;stroke-dasharray:6, 6;stroke-dashoffset:0;marker-end:url(#arrow-purple)" />
   <text
-     x="852.23236"
-     y="702.14484"
+     x="756.4884"
+     y="865.78754"
      font-size="8"
      text-anchor="middle"
      fill="#4caf50"
      id="text55"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">match quality</text>
   <text
-     x="1119.9749"
-     y="731.65088"
+     x="1024.2308"
+     y="895.29358"
      font-size="9"
      fill="#b71c1c"
      id="text58"
@@ -692,8 +695,8 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27185">out</tspan></text>
   <text
-     x="1119.9749"
-     y="762.65088"
+     x="1024.2308"
+     y="926.29358"
      font-size="8"
      fill="#b71c1c"
      id="text59"
@@ -701,8 +704,8 @@
    style="font-size:65%;baseline-shift:sub"
    id="tspan27183">out</tspan>)</text>
   <rect
-     x="990.3576"
-     y="782.604"
+     x="894.61365"
+     y="946.2467"
      width="207.05406"
      height="55.708462"
      fill="#ffffff"
@@ -712,23 +715,23 @@
      id="rect59" />
   <!-- SUM across all rules -->
   <text
-     x="1089.744"
-     y="804.3125"
+     x="994.00006"
+     y="967.9552"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
      id="text60"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Sum Rules</text>
   <text
-     x="1093.744"
-     y="827.3125"
+     x="998.00006"
+     y="990.9552"
      font-size="9"
      text-anchor="middle"
      id="text61"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Σ over m ∈ {1..M}</text>
   <text
-     x="431.99661"
-     y="798.70026"
+     x="336.25266"
+     y="962.34296"
      font-size="10"
      text-anchor="middle"
      fill="#9c27b0"
@@ -739,8 +742,8 @@
    id="tspan17923">loop m=1..M</tspan> (repeat for each rule)</text>
   <!-- FINAL OUTPUT -->
   <text
-     x="1095.4766"
-     y="916.46521"
+     x="999.7326"
+     y="1080.1079"
      font-size="13"
      font-weight="bold"
      text-anchor="middle"
@@ -748,16 +751,16 @@
      id="text63"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">OUTPUT</text>
   <text
-     x="1095.4766"
-     y="940.46521"
+     x="999.7326"
+     y="1104.1079"
      font-size="11"
      text-anchor="middle"
      fill="#666666"
      id="text64"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000">Final Prediction</text>
   <text
-     x="1093.4766"
-     y="962.46521"
+     x="997.7326"
+     y="1126.1079"
      font-size="10"
      font-family="monospace"
      text-anchor="middle"
@@ -766,8 +769,8 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000">(batch, output_dim)</text>
   <!-- Annotations -->
   <text
-     x="331.34424"
-     y="-147.47208"
+     x="235.60027"
+     y="16.170641"
      font-size="10px"
      fill="#666666"
      font-style="italic"
@@ -775,31 +778,31 @@
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"><tspan
        sodipodi:role="line"
        id="tspan14025"
-       x="331.34424"
-       y="-147.47208"><tspan
+       x="235.60027"
+       y="16.170641"><tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
          id="tspan83">Key innovations:</tspan></tspan><tspan
        sodipodi:role="line"
        id="tspan14027"
-       x="331.34424"
-       y="-120.80545">• <tspan
+       x="235.60027"
+       y="42.837269">• <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math'"
    id="tspan29372">γ</tspan> bridges constant vs variable</tspan><tspan
        sodipodi:role="line"
-       x="331.34424"
-       y="-93.200165"
+       x="235.60027"
+       y="70.442551"
        id="tspan14029">• Soft attention = differentiable</tspan><tspan
        sodipodi:role="line"
-       x="331.34424"
-       y="-66.533539"
+       x="235.60027"
+       y="97.109177"
        id="tspan14031">• Variable capture via unification</tspan><tspan
        sodipodi:role="line"
-       x="331.34424"
-       y="-39.866913"
+       x="235.60027"
+       y="123.7758"
        id="tspan14033">• Confidence weighting by match</tspan></text>
   <text
-     x="603.20801"
-     y="-139.98709"
+     x="507.46405"
+     y="23.655626"
      font-size="9px"
      fill="#666666"
      id="text67"
@@ -807,22 +810,22 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
        id="tspan84" /></text>
   <text
-     x="603.20801"
-     y="-110.63834"
+     x="507.46405"
+     y="53.004375"
      font-size="9px"
      fill="#666666"
      id="text68"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000" />
   <text
-     x="603.20801"
-     y="-85.428375"
+     x="507.46405"
+     y="78.21434"
      font-size="9px"
      fill="#666666"
      id="text69"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.3333px;font-family:'Alibaba PuHuiTi';-inkscape-font-specification:'Alibaba PuHuiTi, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000" />
   <text
-     x="603.20801"
-     y="-56.16507"
+     x="507.46405"
+     y="107.47765"
      font-size="9px"
      fill="#666666"
      id="text70"
@@ -905,7 +908,7 @@
        viewBox="0 0 10 6"
        preserveAspectRatio="none">
       <polygon
-         points="10,3 0,6 0,0 "
+         points="0,6 0,0 10,3 "
          fill="#2196f3"
          id="polygon70" />
     </marker>
@@ -919,7 +922,7 @@
        viewBox="0 0 10 6"
        preserveAspectRatio="none">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="0,0 10,3 0,6 "
          fill="#4caf50"
          id="polygon71" />
     </marker>
@@ -933,7 +936,7 @@
        preserveAspectRatio="none"
        viewBox="0 0 10 6">
       <polygon
-         points="10,3 0,6 0,0 "
+         points="0,6 0,0 10,3 "
          fill="#ff9800"
          id="polygon72" />
     </marker>
@@ -948,7 +951,7 @@
        markerUnits="strokeWidth"
        viewBox="0 0 10 6">
       <polygon
-         points="10,3 0,6 0,0 "
+         points="0,6 0,0 10,3 "
          fill="#9c27b0"
          id="polygon73" />
     </marker>
@@ -962,7 +965,7 @@
        preserveAspectRatio="none"
        viewBox="0 0 10 6">
       <polygon
-         points="0,0 10,3 0,6 "
+         points="10,3 0,6 0,0 "
          fill="#673ab7"
          id="polygon74" />
     </marker>
@@ -976,7 +979,7 @@
        viewBox="0 0 10 6"
        preserveAspectRatio="none">
       <polygon
-         points="0,6 0,0 10,3 "
+         points="0,0 10,3 0,6 "
          fill="#795548"
          id="polygon75" />
     </marker>
@@ -991,7 +994,7 @@
        viewBox="0 0 10 6"
        markerUnits="strokeWidth">
       <polygon
-         points="10,3 0,6 0,0 "
+         points="0,6 0,0 10,3 "
          fill="#b71c1c"
          id="polygon76" />
     </marker>
@@ -1097,8 +1100,8 @@
   </defs>
   <!-- Learnable parameters highlight box -->
   <rect
-     x="1061.9707"
-     y="11.004456"
+     x="966.22675"
+     y="174.64717"
      width="328.29083"
      height="189.28391"
      fill="#ffebee"
@@ -1108,8 +1111,8 @@
      id="rect76"
      style="fill:none;stroke:#ff00ff" />
   <text
-     x="1071.3052"
-     y="37.519958"
+     x="975.56122"
+     y="201.16267"
      font-size="11"
      font-weight="bold"
      text-anchor="middle"
@@ -1118,82 +1121,82 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff"><tspan
        sodipodi:role="line"
        id="tspan14035"
-       x="1071.3052"
-       y="37.519958"
+       x="975.56122"
+       y="201.16267"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff" /><tspan
        sodipodi:role="line"
        id="tspan14037"
-       x="1071.3052"
-       y="66.215912"
+       x="975.56122"
+       y="229.85863"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-5px"
          id="tspan23810">－⦁</tspan></tspan><tspan
        sodipodi:role="line"
-       x="1071.3052"
-       y="96.370789"
+       x="975.56122"
+       y="260.01352"
        id="tspan14039"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-5px"
          id="tspan23892">－⦁</tspan></tspan><tspan
        sodipodi:role="line"
-       x="1071.3052"
-       y="126.52567"
+       x="975.56122"
+       y="290.1684"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff"
        id="tspan14041"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-5px"
          id="tspan23894">－⦁</tspan></tspan><tspan
        sodipodi:role="line"
-       x="1071.3052"
-       y="156.68054"
+       x="975.56122"
+       y="320.32327"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff"
        id="tspan14043"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-5px"
          id="tspan23896">－⦁</tspan></tspan><tspan
        sodipodi:role="line"
-       x="1071.3052"
-       y="186.83542"
+       x="975.56122"
+       y="350.47815"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#ff00ff"
        id="tspan14045"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-5px"
          id="tspan23898">－⦁</tspan></tspan></text>
   <text
-     x="1139.744"
-     y="71.27253"
+     x="1044"
+     y="234.91525"
      font-size="9"
      fill="#c2185b"
      id="text77"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="245.5974"
-     y="-137.20749"
+     x="149.85342"
+     y="26.435228"
      font-size="9"
      fill="#c2185b"
      id="text77-9"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="1139.744"
-     y="103.03252"
+     x="1044"
+     y="266.67523"
      font-size="9"
      fill="#c2185b"
      id="text78"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="1139.744"
-     y="134.79251"
+     x="1044"
+     y="298.43524"
      font-size="9"
      fill="#c2185b"
      id="text79"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="1139.744"
-     y="166.55251"
+     x="1044"
+     y="330.19522"
      font-size="9"
      fill="#c2185b"
      id="text80"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" />
   <text
-     x="1139.744"
-     y="198.3125"
+     x="1044"
+     y="361.95523"
      font-size="9"
      fill="#c2185b"
      id="text81"
@@ -1202,9 +1205,9 @@
      xml:space="preserve"
      id="text82"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect82);display:inline;fill:#000000"
-     transform="translate(-56.256008,156.3125)" />
+     transform="translate(-151.99998,319.95522)" />
   <g
-     transform="matrix(2.66666,0,0,2.66666,327.46542,285.3791)"
+     transform="matrix(2.66666,0,0,2.66666,231.72145,449.02182)"
      ns31:version="1.8.2"
      ns31:texconverter="pdflatex"
      ns31:pdfconverter="inkscape"
@@ -1335,7 +1338,7 @@
     </g>
   </g>
   <g
-     transform="matrix(2.66666,0,0,2.66666,389.40105,285.15785)"
+     transform="matrix(2.66666,0,0,2.66666,293.65708,448.80057)"
      ns31:version="1.8.2"
      ns31:texconverter="pdflatex"
      ns31:pdfconverter="inkscape"
@@ -1471,7 +1474,7 @@
      x="52.224503"
      y="1106.7739"
      id="text3987"
-     transform="translate(269.19987,-225.59144)"><tspan
+     transform="translate(173.4559,-61.948722)"><tspan
        sodipodi:role="line"
        id="tspan3985"
        x="52.224503"
@@ -1482,7 +1485,7 @@
      x="341.43332"
      y="456.85309"
      id="text3991"
-     transform="translate(33.587609,-110.28532)"><tspan
+     transform="translate(-62.156361,53.357398)"><tspan
        sodipodi:role="line"
        id="tspan3989"
        x="341.43332"
@@ -1490,8 +1493,8 @@
   <circle
      style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
      id="path18371"
-     cx="1093.4888"
-     cy="737.07031"
+     cx="997.74481"
+     cy="900.71301"
      r="12.5" />
   <text
      xml:space="preserve"
@@ -1499,7 +1502,7 @@
      x="1338.2917"
      y="858.08618"
      id="text9420"
-     transform="translate(-260.77644,-109.31021)"><tspan
+     transform="translate(-356.52041,54.332508)"><tspan
        id="tspan9418"
        x="1338.2917"
        y="858.08618"
@@ -1508,10 +1511,10 @@
   <path
      id="line18-7-0"
      style="stroke:#ff00ff;stroke-width:2;marker-end:url(#Dot-3-1)"
-     d="m 1336.2132,317.29375 v 90"
+     d="m 1240.4692,480.93647 v 90"
      sodipodi:nodetypes="cc" />
   <g
-     transform="matrix(2.66666,0,0,2.66666,351.14246,855.18675)"
+     transform="matrix(2.66666,0,0,2.66666,255.39849,1018.8295)"
      ns31:version="1.8.2"
      ns31:texconverter="pdflatex"
      ns31:pdfconverter="inkscape"
@@ -2025,7 +2028,7 @@
     </g>
   </g>
   <g
-     transform="matrix(1.99999 0 0 1.99999 323.438 397)"
+     transform="matrix(1.99999,0,0,1.99999,227.69403,560.64272)"
      ns31:version="1.8.2"
      ns31:texconverter="pdflatex"
      ns31:pdfconverter="inkscape"
@@ -2095,9 +2098,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-0f4b26e4-f4ee-4c95-a740-c678bd7716b9"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(148.712, 127.293)"
+         transform="translate(148.712,127.293)"
          id="g12023">
         <path
            d="m 4.203125,5.328125 -3.546875,4.375 C 0.578125,9.796875 0.5625,9.8125 0.5625,9.859375 c 0,0.109375 0.09375,0.109375 0.28125,0.109375 h 8.25 L 9.953125,7.484375 h -0.25 C 9.453125,8.234375 8.796875,8.84375 7.9375,9.125 7.78125,9.1875 7.09375,9.421875 5.625,9.421875 H 1.390625 l 3.46875,-4.28125 C 4.921875,5.046875 4.9375,5.03125 4.9375,4.984375 4.9375,4.9375 4.9375,4.9375 4.875,4.84375 L 1.640625,0.40625 h 3.9375 c 1.140625,0 3.4375,0.0625 4.125,1.921875 h 0.25 L 9.09375,0 h -8.25 C 0.5625,0 0.5625,0.015625 0.5625,0.3125 Z m 0,0"
@@ -2108,9 +2111,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-33fa4b14-6b7f-44d5-a3b6-3b7c5180dea3"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(160.889, 134.765)"
+         transform="translate(160.889,134.765)"
          id="g12027">
         <path
            d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
@@ -2121,9 +2124,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-9371a994-ff7b-4f47-9c7f-1c55bbb8b78d"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(166.825, 134.765)"
+         transform="translate(166.825,134.765)"
          id="g12031">
         <path
            d="m 5.46875,-2.296875 c 0.15625,0 0.34375,0 0.34375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.34375,-0.1875 H 1.234375 C 1.359375,-4.03125 2.5,-4.984375 3.90625,-4.984375 h 1.5625 c 0.15625,0 0.34375,0 0.34375,-0.203125 0,-0.203125 -0.1875,-0.203125 -0.34375,-0.203125 H 3.890625 c -1.703125,0 -3.0625,1.296875 -3.0625,2.890625 0,1.609375 1.359375,2.90625 3.0625,2.90625 H 5.46875 c 0.15625,0 0.34375,0 0.34375,-0.203125 C 5.8125,0 5.625,0 5.46875,0 H 3.90625 C 2.5,0 1.359375,-0.953125 1.234375,-2.296875 Z m 0,0"
@@ -2134,9 +2137,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-4769a621-3cad-4f24-a7ba-11f5bbebd79d"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(176.237, 134.765)"
+         transform="translate(176.237,134.765)"
          id="g12035">
         <path
            d="m 2.828125,-6.15625 c 0,-0.390625 0.25,-1.03125 1.34375,-1.09375 C 4.21875,-7.265625 4.25,-7.3125 4.25,-7.359375 c 0,-0.125 -0.078125,-0.125 -0.1875,-0.125 -0.984375,0 -1.90625,0.515625 -1.90625,1.25 v 2.28125 c 0,0.390625 0,0.703125 -0.40625,1.03125 -0.34375,0.296875 -0.71875,0.3125 -0.9375,0.3125 C 0.75,-2.59375 0.71875,-2.546875 0.71875,-2.5 c 0,0.109375 0.0625,0.109375 0.15625,0.125 0.65625,0.03125 1.140625,0.390625 1.25,0.875 0.03125,0.109375 0.03125,0.140625 0.03125,0.5 v 1.96875 c 0,0.421875 0,0.734375 0.46875,1.109375 C 3.015625,2.375 3.671875,2.5 4.0625,2.5 4.171875,2.5 4.25,2.5 4.25,2.375 4.25,2.28125 4.203125,2.28125 4.09375,2.265625 3.46875,2.234375 2.984375,1.90625 2.84375,1.40625 2.828125,1.3125 2.828125,1.296875 2.828125,0.9375 v -2.09375 c 0,-0.453125 -0.09375,-0.625 -0.40625,-0.953125 C 2.21875,-2.3125 1.921875,-2.40625 1.640625,-2.5 c 0.828125,-0.21875 1.1875,-0.6875 1.1875,-1.265625 z m 0,0"
@@ -2147,9 +2150,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-bde57e13-a603-4eab-af6c-6cbc537c8111"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(181.215, 134.765)"
+         transform="translate(181.215,134.765)"
          id="g12039">
         <path
            d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 v 0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 v 5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 h -0.3125 V 0 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 v -0.3125 h -0.3125 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
@@ -2160,30 +2163,30 @@
        fill="#000000"
        fill-opacity="1"
        id="id-1c10784e-49ec-4f9d-8c1f-290713f71a6f"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(186.197, 134.765)"
+         transform="translate(186.197,134.765)"
          id="g12043">
         <path
            d="m 1.90625,-0.53125 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
            id="id-e22dd049-c038-4217-92d0-e8c5f871b636" />
       </g>
       <g
-         transform="translate(188.965, 134.765)"
+         transform="translate(188.965,134.765)"
          id="g12046">
         <path
            d="m 1.90625,-0.53125 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
            id="id-ed09d6a9-b5d7-47fd-9465-64045550c5b5" />
       </g>
       <g
-         transform="translate(191.732, 134.765)"
+         transform="translate(191.732,134.765)"
          id="g12049">
         <path
            d="m 1.90625,-0.53125 c 0,-0.28125 -0.234375,-0.53125 -0.515625,-0.53125 -0.296875,0 -0.53125,0.25 -0.53125,0.53125 C 0.859375,-0.234375 1.09375,0 1.390625,0 1.671875,0 1.90625,-0.234375 1.90625,-0.53125 Z m 0,0"
            id="id-210faea1-0ea5-4a1e-a97b-66703bc12450" />
       </g>
       <g
-         transform="translate(194.5, 134.765)"
+         transform="translate(194.5,134.765)"
          id="g12052">
         <path
            d="M 3.734375,-6.03125 C 3.8125,-6.390625 3.84375,-6.5 4.78125,-6.5 c 0.296875,0 0.375,0 0.375,-0.1875 0,-0.125 -0.109375,-0.125 -0.15625,-0.125 -0.328125,0 -1.140625,0.03125 -1.46875,0.03125 -0.296875,0 -1.03125,-0.03125 -1.328125,-0.03125 -0.0625,0 -0.1875,0 -0.1875,0.203125 0,0.109375 0.09375,0.109375 0.28125,0.109375 0.015625,0 0.203125,0 0.375,0.015625 0.171875,0.03125 0.265625,0.03125 0.265625,0.171875 0,0.03125 0,0.0625 -0.03125,0.1875 L 1.5625,-0.78125 c -0.09375,0.390625 -0.109375,0.46875 -0.90625,0.46875 -0.171875,0 -0.265625,0 -0.265625,0.203125 C 0.390625,0 0.484375,0 0.65625,0 h 4.625 C 5.515625,0 5.515625,0 5.578125,-0.171875 L 6.375,-2.328125 c 0.03125,-0.109375 0.03125,-0.125 0.03125,-0.140625 0,-0.03125 -0.03125,-0.109375 -0.109375,-0.109375 -0.09375,0 -0.109375,0.0625 -0.171875,0.21875 -0.34375,0.90625 -0.78125,2.046875 -2.5,2.046875 H 2.6875 c -0.140625,0 -0.171875,0 -0.21875,0 -0.109375,-0.015625 -0.140625,-0.03125 -0.140625,-0.109375 0,-0.03125 0,-0.046875 0.046875,-0.21875 z m 0,0"
@@ -2194,9 +2197,9 @@
        fill="#000000"
        fill-opacity="1"
        id="id-5bc505b0-d04c-46a4-9e1b-57d98235cfc1"
-       transform="translate(-149.275, -127.281)">
+       transform="translate(-149.275,-127.281)">
       <g
-         transform="translate(201.279, 134.765)"
+         transform="translate(201.279,134.765)"
          id="g12056">
         <path
            d="m 2.15625,1.171875 c 0,0.390625 -0.265625,1.03125 -1.34375,1.09375 C 0.75,2.28125 0.71875,2.328125 0.71875,2.375 0.71875,2.5 0.828125,2.5 0.921875,2.5 1.890625,2.5 2.8125,2 2.828125,1.25 v -2.28125 c 0,-0.390625 0,-0.703125 0.390625,-1.03125 C 3.5625,-2.359375 3.953125,-2.375 4.171875,-2.375 4.21875,-2.390625 4.25,-2.4375 4.25,-2.5 4.25,-2.59375 4.203125,-2.59375 4.09375,-2.609375 3.4375,-2.640625 2.953125,-3 2.84375,-3.484375 2.828125,-3.59375 2.828125,-3.625 2.828125,-3.984375 v -1.96875 c 0,-0.421875 0,-0.734375 -0.484375,-1.109375 C 1.9375,-7.375 1.25,-7.484375 0.921875,-7.484375 c -0.09375,0 -0.203125,0 -0.203125,0.125 0,0.09375 0.0625,0.09375 0.15625,0.109375 0.625,0.03125 1.125,0.359375 1.25,0.859375 0.03125,0.09375 0.03125,0.109375 0.03125,0.46875 v 2.09375 c 0,0.453125 0.078125,0.625 0.390625,0.953125 0.21875,0.203125 0.5,0.296875 0.78125,0.375 -0.8125,0.234375 -1.171875,0.703125 -1.171875,1.28125 z m 0,0"
@@ -2210,7 +2213,7 @@
      x="189.64934"
      y="-107.99838"
      id="text14009"
-     transform="translate(-57.173287,202.58975)"><tspan
+     transform="translate(-152.91726,366.23247)"><tspan
        sodipodi:role="line"
        id="tspan14007"
        x="189.64934"
@@ -2242,7 +2245,7 @@
      x="723.37354"
      y="-339.74789"
      id="text24669"
-     transform="translate(353.00097,375.65603)"><tspan
+     transform="translate(257.257,539.29875)"><tspan
        sodipodi:role="line"
        id="tspan24667"
        x="723.37354"
